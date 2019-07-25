@@ -11,10 +11,13 @@ function teamMember(member) {
   const div = document.createElement("div")
   const memberDetails = `
   <img src="${member.img}"/>
-  <h3>${member.name}</h3>
-  <h3>${member.role}</h3>
+  <div>
+    <h3>${member.name}</h3>
+    <h4>${member.role}</h4>
+  </div>
   `
   div.innerHTML = memberDetails
+  div.classList.add('member-card')
   return div
 }
 
