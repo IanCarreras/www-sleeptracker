@@ -1,0 +1,46 @@
+body {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+}
+nav {
+  display: flex;
+  align-content: center;
+  background-color: dodgerblue;
+}
+nav .logo {
+  display: flex;
+  flex-grow: 1;
+}
+nav .logo img {
+  height: 50%;
+  justify-self: center;
+}
+nav a {
+  align-self: space-between;
+  justify-self: center;
+  text-decoration: none;
+  color: white;
+  padding: 1rem 0.4rem;
+}
+nav a:visited {
+  color: white;
+}
+#about-us {
+  display: flex;
+  flex-wrap: wrap;
+}
+#about-us .member-card {
+  border: 1px solid darkblue;
+  border-radius: 5px;
+  margin: 1rem;
+  max-width: 21%;
+}
+#about-us .member-card img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+#about-us .member-card div {
+  padding: 1rem;
+}
