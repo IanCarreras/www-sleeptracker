@@ -4,22 +4,23 @@ const sleepTrackerFeatures = [
     { name: 'Dolor nullam', does: 'feature 3 does...', img: ''}
 ]
 
-let feature = document.getElementsByClassName('features_list')
+let features_list = document.getElementById('features_list')
 
 function featureList(feature) {
     const li = document.createElement('li')
-    const elements = `
+    const list_elements = `
         <span></span>
         <h3>${feature.name}</h3>
-        <p>${feature.does}</p>`
+        <p>${feature.does}</p>
+        `
 
-    li.innerHTML = elements
+    li.innerHTML = list_elements
     return li
 }
 
 sleepTrackerFeatures.forEach((feature) => {
     let newFeature = featureList(feature)
-    feature.appendChild(newFeature)
+    features_list.appendChild(newFeature)
 })
 
 
