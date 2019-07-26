@@ -1,7 +1,8 @@
 body {
     max-width: 900px;
     margin: 0 auto;
-    background-color: black;
+    background: url(../img/night_sky.jpeg) black no-repeat;
+    background-size: cover;
     color: white;
 }
 
@@ -29,24 +30,38 @@ nav a:hover a:visited {
 }
 
 .section_1 {
-    border: 1px solid white;
     display: flex;
+    height: 20rem;
 }
 
 .section_1 .wrapper {
-    border: 1px solid white;
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+}
 
+.section_1 .wrapper h2 {
+    text-align: center;
+}
+
+.section_1 .wrapper button {
+    width: 20%;
+    margin: 0 auto;
 }
 
 .section_1_img {
-    border: 1px solid white;
-
+    height: 10rem;
+    margin: auto 0;
 }
 
 .section_2 {
-    border: 1px solid white;
     display: flex;
     flex-direction: column;
+    border-top: 1px solid white;
+    padding-top: 4rem;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .section_2 h2{
@@ -56,7 +71,7 @@ nav a:hover a:visited {
 .section_2 #features_list {
     list-style-type: none;
     display: flex;
-    padding: 3rem;
+    padding: 2rem;
 }
 
 .section_2 #features_list li {
@@ -76,4 +91,27 @@ nav a:hover a:visited {
     height: 2rem;
     margin: 0 auto;
     border-radius: 2rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+footer button {
+    margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+    body {
+        background: url(../img/night_sky.jpeg) black no-repeat;
+        background-size: cover;
+    }
+}
+
+@media (min-width: 1000px) {
+    body {
+        background: url(../img/night_sky.jpeg) black no-repeat;
+        background-size: cover;
+    }
 }

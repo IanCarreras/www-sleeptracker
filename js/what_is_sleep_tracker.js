@@ -1,7 +1,24 @@
 const sleepTrackerFeatures = [
-    { name: 'Ipsum consequat', does: 'feature 1 does...', img: ''},
-    { name: 'Amed sed feugiat', does: 'feature 2 does...', img: ''},
-    { name: 'Dolor nullam', does: 'feature 3 does...', img: ''}
+    { 
+        name: 'Journaling', 
+        does: 'Sleep Tracker logs the time you went to bed, the time yo wake up, and the different stages of the sleep cycle allowing the user to be aware of when the are sleeping well and when they are not.', 
+        img: ''
+    },
+    { 
+        name: 'Rate Your Energy Level', 
+        does: 'Click on one of our emojis and rate how you feel before you go to bed, when you wake up, and how you feel during the day.', 
+        img: ''
+    },
+    { 
+        name: 'Sleep Tracker on the go', 
+        does: 'Integrate with your smart watch and track your sleep when you are not at home.', 
+        img: ''
+    },
+    { 
+        name: 'Dolor nullam', 
+        does: 'feature 4 does...', 
+        img: ''
+    }
 ]
 
 let features_list = document.getElementById('features_list')
