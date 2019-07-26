@@ -5,7 +5,7 @@ const team = [
   { name: "Melvin", role: "Front-end Dev", img: "/img/melvin.png" }
 ]
 
-let aboutUs = document.getElementById("about-us")
+let aboutUs = document.getElementById("who-are-we")
 
 function teamMember(member) {
   const div = document.createElement("div")
