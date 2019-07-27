@@ -1,8 +1,7 @@
 body {
     max-width: 900px;
     margin: 0 auto;
-    background: url(../img/night_sky.jpeg) black no-repeat;
-    background-size: cover;
+    background: black;
     color: white;
 }
 
@@ -76,10 +75,11 @@ nav a:hover a:visited {
 
 .section_2 #features_list li {
     padding: 3rem;
+    border: 1px solid white;
 }
 
 .section_2 #features_list li h3 {
-
+    text-align: center;
 }
 
 .section_2 #features_list li p {
@@ -104,14 +104,12 @@ footer button {
 
 @media (min-width: 600px) {
     body {
-        background: url(../img/night_sky.jpeg) black no-repeat;
-        background-size: cover;
+        background: black;
     }
 }
 
 @media (min-width: 1000px) {
     body {
-        background: url(../img/night_sky.jpeg) black no-repeat;
-        background-size: cover;
+        background: black;
     }
 }
