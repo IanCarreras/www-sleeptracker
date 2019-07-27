@@ -1,147 +1,115 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
 body {
-  line-height: 1;
+    max-width: 900px;
+    margin: 0 auto;
+    background: black;
+    color: white;
 }
-ol,
-ul {
-  list-style: none;
+
+nav {
+    display: flex;
+    align-content: center;
+    background-color: dodgerblue;
 }
-blockquote,
-q {
-  quotes: none;
+
+nav #logo {
+    display: flex;
+    flex-grow: 1;
 }
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: '';
-  content: none;
+
+nav a {
+    align-self: space-between;
+    justify-self: center;
+    text-decoration: none;
+    color: white;
+    padding: 1rem 0.4rem;
 }
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
+
+nav a:hover a:visited {
+    color: white;
 }
-* {
-  box-sizing: border-box;
+
+.section_1 {
+    display: flex;
+    height: 20rem;
 }
-html {
-  font-size: 62.5%;
+
+.section_1 .wrapper {
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
 }
-html,
-body {
-  font-family: 'Ubuntu', sans-serif;
-  color: #5E6164;
+
+.section_1 .wrapper h2 {
+    text-align: center;
 }
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: 'Russo One', sans-serif;
-  color: #23293B;
+
+.section_1 .wrapper button {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.section_1_img {
+    height: 10rem;
+    margin: auto 0;
+}
+
+.section_2 {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid white;
+    padding-top: 4rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.section_2 h2{
+    text-align: center;
+}
+
+.section_2 #features_list {
+    list-style-type: none;
+    display: flex;
+    padding: 2rem;
+}
+
+.section_2 #features_list li {
+    padding: 3rem;
+    border: 1px solid white;
+}
+
+.section_2 #features_list li h3 {
+    text-align: center;
+}
+
+.section_2 #features_list li p {
+
+}
+
+.section_2 button {
+    width: 20%;
+    height: 2rem;
+    margin: 0 auto;
+    border-radius: 2rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+footer button {
+    margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+    body {
+        background: black;
+    }
+}
+
+@media (min-width: 1000px) {
+    body {
+        background: black;
+    }
 }
