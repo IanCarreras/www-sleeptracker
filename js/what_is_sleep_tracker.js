@@ -1,7 +1,7 @@
 const sleepTrackerFeatures = [
     { 
         name: 'Journaling', 
-        does: 'Sleep Tracker logs the time you went to bed, the time yo wake up, and the different stages of the sleep cycle allowing the user to be aware of when they are sleeping well and when they are not.', 
+        does: 'Sleep Tracker logs the time you went to bed, the time you wake up, and the different stages of the sleep cycle allowing the user to be aware of when they are sleeping well and when they are not.', 
         img: ''
     },
     { 
