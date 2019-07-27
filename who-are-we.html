@@ -1,55 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/zzz-white.png" />
+    <title>Who are we? - Sleep Tracker</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <link rel="stylesheet" href="css/who-are-we.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/who-are-we.css" />
-</head>
-
-<body>
-  <header>
-    <nav>
-      <div class="logo">
-        <a href="/">
-          <img src="img/zzz-white.png" alt="logo">
-          <h1>Sleep Tracker</h1>
-        </a>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="/">
+            <img src="img/zzz-white.png" alt="logo" />
+            <h1>Sleep Tracker</h1>
+          </a>
         </div>
-      <a href="/what_is_sleep_tracker.html">What is Sleep Tracker?</a>
-      <a href="/why-sleep.html">Why Sleep?</a>
-      <a href="/who-are-we.html">Who are we?</a>
-      <button>
-        <a href="#">Sign Up</a>
-      </button>
-      <button>
-        <a href="#">Log In</a>
-      </button>
-    </nav>
-  </header>
-  <section class="about-us">
-    <h2>About Team Sleepy</h2>
-    <p>Team Sleepy consists of Lambda Students in varying states of completion. There are three WebPT8 students with the
-      role of Web UI Dev and one WebPT6 as Web Front-end Dev. The team has worked together closely to bring an awesome product to the market: Sleep Tracker &trade;.</p>
-  </section>
-  <section class="who-are-we">
-    <h2>Who are the members of Team Sleepy?</h2>
-    <div id="who-are-we"></div>
-  </section>
-  <section id="contact-us">
-    <h2>Contact Us</h2>
-    <form name="contact-form">
-      <label>First Name
-        <input type="text" id="fname" name="firstname" placeholder="Your first name..">
-      </label>
-      <label>Last Name
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-      </label>
-      <label>Subject
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-      </label>
-      <input type="submit" value="Submit">
-    </form>
-  </section>
-  <script src="js/who-are-we.js"></script>
-</body>
+        <div class="nav-items">
+          <a href="/what_is_sleep_tracker.html">What is Sleep Tracker?</a>
+          <a href="/why-sleep.html">Why Sleep?</a>
+          <a href="/who-are-we.html">Who are we?</a>
+        </div>
+        <div class="login">
+          <button>
+            <a href="https://app-sleeptracker-july.netlify.com/">Sign Up</a>
+          </button>
+          <button>
+            <a href="https://app-sleeptracker-july.netlify.com/">Log In</a>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <section class="about-us">
+      <h2>About Team Sleepy</h2>
+      <p>
+        Team Sleepy consists of Lambda Students in varying states of completion.
+        There are three WebPT8 students with the role of Web UI Dev and one
+        WebPT6 as Web Front-end Dev. The team has worked together closely to
+        bring an awesome product to the market: Sleep Tracker &trade;.
+      </p>
+    </section>
+    <section class="who-are-we">
+      <h2>Who are the members of Team Sleepy?</h2>
+      <div id="who-are-we"></div>
+    </section>
+    <section id="contact-us">
+      <h2>Contact Us</h2>
+      <form name="contact-form">
+        <label
+          >First Name
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your first name.."
+          />
+        </label>
+        <label
+          >Last Name
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
+        </label>
+        <label
+          >Subject
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style="height:200px"
+          ></textarea>
+        </label>
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+    <script src="js/who-are-we.js"></script>
+  </body>
+</html>
