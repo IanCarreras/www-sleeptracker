@@ -1,0 +1,91 @@
+body {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+}
+nav {
+  display: flex;
+  align-content: center;
+  background-color: dodgerblue;
+}
+nav .logo {
+  display: flex;
+  flex-grow: 1;
+}
+nav .logo a {
+  display: flex;
+}
+nav .logo a img {
+  height: 50%;
+  justify-self: center;
+}
+nav button {
+  margin: 0.5rem;
+  max-height: 3rem;
+  background-color: darkblue;
+  border: none;
+  border-radius: 5px;
+}
+nav a {
+  align-self: space-between;
+  justify-self: center;
+  text-decoration: none;
+  color: white;
+  padding: 1rem 0.4rem;
+}
+nav a:visited {
+  color: white;
+}
+#who-are-we {
+  display: flex;
+  flex-wrap: wrap;
+}
+#who-are-we .member-card {
+  border: 1px solid darkblue;
+  border-radius: 5px;
+  margin: 1rem;
+  max-width: 21%;
+}
+#who-are-we .member-card img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+#who-are-we .member-card div {
+  padding: 1rem;
+}
+#contact-us {
+  /* Style inputs with type="text", select elements and textareas */
+  /* Style the submit button with a specific background color etc */
+  /* When moving the mouse over the submit button, add a darker green color */
+}
+#contact-us input[type=text],
+#contact-us select,
+#contact-us textarea {
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */;
+}
+#contact-us input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#contact-us input[type=submit]:hover {
+  background-color: #45a049;
+}
