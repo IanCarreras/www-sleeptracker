@@ -1,0 +1,39 @@
+body {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+}
+nav {
+  display: flex;
+  align-content: center;
+  background-color: dodgerblue;
+}
+nav .logo {
+  display: flex;
+  flex-grow: 1;
+}
+nav .logo a {
+  display: flex;
+}
+nav .logo a img {
+  height: 50%;
+  justify-self: center;
+}
+nav button {
+  margin: 0.5rem;
+  max-height: 3rem;
+  background-color: darkblue;
+  border: none;
+  border-radius: 5px;
+}
+nav a {
+  align-self: space-between;
+  justify-self: center;
+  text-decoration: none;
+  color: white;
+  padding: 1rem 0.4rem;
+}
+nav a:visited {
+  color: white;
+}
