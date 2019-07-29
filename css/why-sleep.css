@@ -134,14 +134,14 @@ html,
 body {
   height: 100%;
   font-size: 62.5%;
+  font-family: sans-serif;
 }
 body {
-  background-color: black;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2000' height='2000' viewBox='0 0 800 800'%3E%3Cg fill='none' %3E%3Cg stroke='%23026' stroke-width='17'%3E%3Cline x1='-8' y1='-8' x2='808' y2='808'/%3E%3Cline x1='-8' y1='792' x2='808' y2='1608'/%3E%3Cline x1='-8' y1='-808' x2='808' y2='8'/%3E%3C/g%3E%3Cg stroke='%23002163' stroke-width='16'%3E%3Cline x1='-8' y1='767' x2='808' y2='1583'/%3E%3Cline x1='-8' y1='17' x2='808' y2='833'/%3E%3Cline x1='-8' y1='-33' x2='808' y2='783'/%3E%3Cline x1='-8' y1='-783' x2='808' y2='33'/%3E%3C/g%3E%3Cg stroke='%23002060' stroke-width='15'%3E%3Cline x1='-8' y1='742' x2='808' y2='1558'/%3E%3Cline x1='-8' y1='42' x2='808' y2='858'/%3E%3Cline x1='-8' y1='-58' x2='808' y2='758'/%3E%3Cline x1='-8' y1='-758' x2='808' y2='58'/%3E%3C/g%3E%3Cg stroke='%23001f5c' stroke-width='14'%3E%3Cline x1='-8' y1='67' x2='808' y2='883'/%3E%3Cline x1='-8' y1='717' x2='808' y2='1533'/%3E%3Cline x1='-8' y1='-733' x2='808' y2='83'/%3E%3Cline x1='-8' y1='-83' x2='808' y2='733'/%3E%3C/g%3E%3Cg stroke='%23001e59' stroke-width='13'%3E%3Cline x1='-8' y1='92' x2='808' y2='908'/%3E%3Cline x1='-8' y1='692' x2='808' y2='1508'/%3E%3Cline x1='-8' y1='-108' x2='808' y2='708'/%3E%3Cline x1='-8' y1='-708' x2='808' y2='108'/%3E%3C/g%3E%3Cg stroke='%23001d56' stroke-width='12'%3E%3Cline x1='-8' y1='667' x2='808' y2='1483'/%3E%3Cline x1='-8' y1='117' x2='808' y2='933'/%3E%3Cline x1='-8' y1='-133' x2='808' y2='683'/%3E%3Cline x1='-8' y1='-683' x2='808' y2='133'/%3E%3C/g%3E%3Cg stroke='%23001c53' stroke-width='11'%3E%3Cline x1='-8' y1='642' x2='808' y2='1458'/%3E%3Cline x1='-8' y1='142' x2='808' y2='958'/%3E%3Cline x1='-8' y1='-158' x2='808' y2='658'/%3E%3Cline x1='-8' y1='-658' x2='808' y2='158'/%3E%3C/g%3E%3Cg stroke='%23001b4f' stroke-width='10'%3E%3Cline x1='-8' y1='167' x2='808' y2='983'/%3E%3Cline x1='-8' y1='617' x2='808' y2='1433'/%3E%3Cline x1='-8' y1='-633' x2='808' y2='183'/%3E%3Cline x1='-8' y1='-183' x2='808' y2='633'/%3E%3C/g%3E%3Cg stroke='%23001a4c' stroke-width='9'%3E%3Cline x1='-8' y1='592' x2='808' y2='1408'/%3E%3Cline x1='-8' y1='192' x2='808' y2='1008'/%3E%3Cline x1='-8' y1='-608' x2='808' y2='208'/%3E%3Cline x1='-8' y1='-208' x2='808' y2='608'/%3E%3C/g%3E%3Cg stroke='%23001949' stroke-width='8'%3E%3Cline x1='-8' y1='567' x2='808' y2='1383'/%3E%3Cline x1='-8' y1='217' x2='808' y2='1033'/%3E%3Cline x1='-8' y1='-233' x2='808' y2='583'/%3E%3Cline x1='-8' y1='-583' x2='808' y2='233'/%3E%3C/g%3E%3Cg stroke='%23001846' stroke-width='7'%3E%3Cline x1='-8' y1='242' x2='808' y2='1058'/%3E%3Cline x1='-8' y1='542' x2='808' y2='1358'/%3E%3Cline x1='-8' y1='-558' x2='808' y2='258'/%3E%3Cline x1='-8' y1='-258' x2='808' y2='558'/%3E%3C/g%3E%3Cg stroke='%23001743' stroke-width='6'%3E%3Cline x1='-8' y1='267' x2='808' y2='1083'/%3E%3Cline x1='-8' y1='517' x2='808' y2='1333'/%3E%3Cline x1='-8' y1='-533' x2='808' y2='283'/%3E%3Cline x1='-8' y1='-283' x2='808' y2='533'/%3E%3C/g%3E%3Cg stroke='%2300163f' stroke-width='5'%3E%3Cline x1='-8' y1='292' x2='808' y2='1108'/%3E%3Cline x1='-8' y1='492' x2='808' y2='1308'/%3E%3Cline x1='-8' y1='-308' x2='808' y2='508'/%3E%3Cline x1='-8' y1='-508' x2='808' y2='308'/%3E%3C/g%3E%3Cg stroke='%2300153c' stroke-width='4'%3E%3Cline x1='-8' y1='467' x2='808' y2='1283'/%3E%3Cline x1='-8' y1='317' x2='808' y2='1133'/%3E%3Cline x1='-8' y1='-333' x2='808' y2='483'/%3E%3Cline x1='-8' y1='-483' x2='808' y2='333'/%3E%3C/g%3E%3Cg stroke='%23001439' stroke-width='3'%3E%3Cline x1='-8' y1='342' x2='808' y2='1158'/%3E%3Cline x1='-8' y1='442' x2='808' y2='1258'/%3E%3Cline x1='-8' y1='-458' x2='808' y2='358'/%3E%3Cline x1='-8' y1='-358' x2='808' y2='458'/%3E%3C/g%3E%3Cg stroke='%23001336' stroke-width='2'%3E%3Cline x1='-8' y1='367' x2='808' y2='1183'/%3E%3Cline x1='-8' y1='417' x2='808' y2='1233'/%3E%3Cline x1='-8' y1='-433' x2='808' y2='383'/%3E%3Cline x1='-8' y1='-383' x2='808' y2='433'/%3E%3C/g%3E%3Cg stroke='%23013' stroke-width='1'%3E%3Cline x1='-8' y1='392' x2='808' y2='1208'/%3E%3Cline x1='-8' y1='-408' x2='808' y2='408'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-color: #1D1A21;
 }
 header {
   background-color: #003366;
-  height: 20%;
+  height: 80px;
 }
 header nav {
   display: flex;
@@ -254,11 +254,15 @@ header nav .logo h1 {
 }
 .top-container .slider-wrapper h1 {
   color: white;
-  font-size: 2.8rem;
+  font-family: 'Raleway', sans-serif;
+  font-size: 4rem;
+  text-align: center;
 }
 .top-container p {
   color: white;
-  font-size: 1.6rem;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  padding: 0px 20px;
 }
 .mid-container {
   display: flex;
@@ -269,7 +273,9 @@ header nav .logo h1 {
 }
 .mid-container .left-container h1 {
   color: white;
-  font-size: 2.8rem;
+  font-family: 'Raleway', sans-serif;
+  font-size: 3.6rem;
+  text-align: center;
   padding-bottom: 10px;
 }
 .mid-container .left-container p {
@@ -282,7 +288,9 @@ header nav .logo h1 {
 }
 .mid-container .right-container h1 {
   color: white;
-  font-size: 2.8rem;
+  font-family: 'Raleway', sans-serif;
+  font-size: 3.6rem;
+  text-align: center;
 }
 .mid-container .right-container h2 {
   color: white;
@@ -291,4 +299,1762 @@ header nav .logo h1 {
 .mid-container .right-container h3 {
   color: white;
   font-size: 2.2rem;
+}
+/*
+ * Project: Charts
+ * Description: Customizable charts.
+ * Version: 0.1.0
+ * 
+ * 2014 Kris Olszewski | http://www.kolszewski.com/
+ */
+/**
+  * Demo
+  * --------------------------------------------------
+  */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  text-rendering: optimizeSpeed;
+  -webkit-font-smoothing: antialiased;
+}
+#chart-1 {
+  width: 600px;
+  height: 300px;
+}
+#chart-2 {
+  width: 400px;
+  height: 600px;
+}
+#chart-3 {
+  width: 600px;
+  height: 130px;
+}
+#chart-4 {
+  width: 130px;
+  height: 500px;
+}
+#chart-5 {
+  width: 300px;
+  height: 200px;
+}
+/**
+  * Chart container
+  * --------------------------------------------------
+  */
+.metric-chart {
+  position: relative;
+  margin: 40px auto;
+}
+/**
+  * Chart list reset
+  * --------------------------------------------------
+  */
+.y-axis-line-list,
+.x-axis-line-list,
+.y-axis-label-list,
+.x-axis-label-list,
+.y-axis-bar-list,
+.x-axis-bar-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.y-axis-line-list:before,
+.x-axis-line-list:before,
+.y-axis-label-list:before,
+.x-axis-label-list:before,
+.y-axis-bar-list:before,
+.x-axis-bar-list:before,
+.y-axis-line-list:after,
+.x-axis-line-list:after,
+.y-axis-label-list:after,
+.x-axis-label-list:after,
+.y-axis-bar-list:after,
+.x-axis-bar-list:after {
+  display: table;
+  content: " ";
+}
+.y-axis-line-list:before:after,
+.x-axis-line-list:before:after,
+.y-axis-label-list:before:after,
+.x-axis-label-list:before:after,
+.y-axis-bar-list:before:after,
+.x-axis-bar-list:before:after,
+.y-axis-line-list:after:after,
+.x-axis-line-list:after:after,
+.y-axis-label-list:after:after,
+.x-axis-label-list:after:after,
+.y-axis-bar-list:after:after,
+.x-axis-bar-list:after:after {
+  clear: both;
+}
+/**
+  * X & Y lines
+  * --------------------------------------------------
+  *
+  * Recommended usage:
+  *
+  * <div class="{ y|x }-axis"></div>
+  *
+  */
+.y-axis,
+.x-axis {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+}
+.y-axis {
+  top: 0;
+  right: auto;
+  width: 1px;
+  background-color: #434a54;
+}
+.x-axis {
+  top: auto;
+  right: 0;
+  height: 1px;
+  background-color: #434a54;
+}
+/**
+  * X & Y target lines
+  * --------------------------------------------------
+  *
+  * Recommended usage:
+  *
+  * <div class="{ y|x }-axis-target">
+  *   <span class="{ y|x }-axis-target-line">
+  *     <span class="{ y|x }-axis-target-line-label" data-label="{ label }"></span>
+  *   </span>
+  * </div>
+  *
+  */
+.y-axis-target,
+.x-axis-target {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 51px;
+  left: 51px;
+}
+.y-axis-target > .y-axis-target-line,
+.x-axis-target > .y-axis-target-line,
+.y-axis-target > .x-axis-target-line,
+.x-axis-target > .x-axis-target-line {
+  position: absolute;
+}
+.y-axis-target > .y-axis-target-line {
+  top: 0;
+  right: auto;
+  bottom: 0;
+  left: 190px;
+  width: 0;
+  border-right: 1px dashed #da4453;
+}
+.y-axis-target-line-label {
+  position: absolute;
+  top: -18px;
+  right: 0;
+  width: 100px;
+  text-align: right;
+}
+.y-axis-target-line-label:after {
+  content: attr(data-label);
+  color: #da4453;
+  font-size: 12px;
+  line-height: 1;
+}
+.x-axis-target > .x-axis-target-line {
+  top: auto;
+  right: 0;
+  bottom: 170px;
+  left: 0;
+  height: 0;
+  border-bottom: 1px dashed #da4453;
+}
+.x-axis-target-line-label {
+  position: absolute;
+  top: -9px;
+  right: -50px;
+  width: 40px;
+  text-align: left;
+}
+.x-axis-target-line-label:after {
+  content: attr(data-label);
+  color: #da4453;
+  font-size: 12px;
+  line-height: 1;
+}
+/**
+  * X axis background lines
+  * --------------------------------------------------
+  *
+  * Recommended usage:
+  *
+  * <ul class="x-axis-bar-list count-{ count }">
+  *   <li class="x-axis-bar-item">
+  *     <span class="x-axis-line"></span>
+  *   </li>
+  * </ul>
+  *
+  */
+.x-axis-line-list {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  bottom: 51px;
+  left: 50px;
+}
+.x-axis-line-item {
+  position: absolute;
+  top: 0;
+  right: auto;
+  bottom: 0;
+  left: 0;
+}
+.count-1 .x-axis-line-item:nth-of-type(1) {
+  right: 0%;
+  left: 0%;
+}
+.count-2 .x-axis-line-item:nth-of-type(1) {
+  right: 50%;
+  left: 0%;
+}
+.count-2 .x-axis-line-item:nth-of-type(2) {
+  right: 0%;
+  left: 50%;
+}
+.count-3 .x-axis-line-item:nth-of-type(1) {
+  right: 66.66666667%;
+  left: 0%;
+}
+.count-3 .x-axis-line-item:nth-of-type(2) {
+  right: 33.33333333%;
+  left: 33.33333333%;
+}
+.count-3 .x-axis-line-item:nth-of-type(3) {
+  right: 0%;
+  left: 66.66666667%;
+}
+.count-4 .x-axis-line-item:nth-of-type(1) {
+  right: 75%;
+  left: 0%;
+}
+.count-4 .x-axis-line-item:nth-of-type(2) {
+  right: 50%;
+  left: 25%;
+}
+.count-4 .x-axis-line-item:nth-of-type(3) {
+  right: 25%;
+  left: 50%;
+}
+.count-4 .x-axis-line-item:nth-of-type(4) {
+  right: 0%;
+  left: 75%;
+}
+.count-5 .x-axis-line-item:nth-of-type(1) {
+  right: 80%;
+  left: 0%;
+}
+.count-5 .x-axis-line-item:nth-of-type(2) {
+  right: 60%;
+  left: 20%;
+}
+.count-5 .x-axis-line-item:nth-of-type(3) {
+  right: 40%;
+  left: 40%;
+}
+.count-5 .x-axis-line-item:nth-of-type(4) {
+  right: 20%;
+  left: 60%;
+}
+.count-5 .x-axis-line-item:nth-of-type(5) {
+  right: 0%;
+  left: 80%;
+}
+.count-6 .x-axis-line-item:nth-of-type(1) {
+  right: 83.33333333%;
+  left: 0%;
+}
+.count-6 .x-axis-line-item:nth-of-type(2) {
+  right: 66.66666667%;
+  left: 16.66666667%;
+}
+.count-6 .x-axis-line-item:nth-of-type(3) {
+  right: 50%;
+  left: 33.33333333%;
+}
+.count-6 .x-axis-line-item:nth-of-type(4) {
+  right: 33.33333333%;
+  left: 50%;
+}
+.count-6 .x-axis-line-item:nth-of-type(5) {
+  right: 16.66666667%;
+  left: 66.66666667%;
+}
+.count-6 .x-axis-line-item:nth-of-type(6) {
+  right: 0%;
+  left: 83.33333333%;
+}
+.count-7 .x-axis-line-item:nth-of-type(1) {
+  right: 85.71428571%;
+  left: 0%;
+}
+.count-7 .x-axis-line-item:nth-of-type(2) {
+  right: 71.42857143%;
+  left: 14.28571429%;
+}
+.count-7 .x-axis-line-item:nth-of-type(3) {
+  right: 57.14285714%;
+  left: 28.57142857%;
+}
+.count-7 .x-axis-line-item:nth-of-type(4) {
+  right: 42.85714286%;
+  left: 42.85714286%;
+}
+.count-7 .x-axis-line-item:nth-of-type(5) {
+  right: 28.57142857%;
+  left: 57.14285714%;
+}
+.count-7 .x-axis-line-item:nth-of-type(6) {
+  right: 14.28571429%;
+  left: 71.42857143%;
+}
+.count-7 .x-axis-line-item:nth-of-type(7) {
+  right: 0%;
+  left: 85.71428571%;
+}
+.count-8 .x-axis-line-item:nth-of-type(1) {
+  right: 87.5%;
+  left: 0%;
+}
+.count-8 .x-axis-line-item:nth-of-type(2) {
+  right: 75%;
+  left: 12.5%;
+}
+.count-8 .x-axis-line-item:nth-of-type(3) {
+  right: 62.5%;
+  left: 25%;
+}
+.count-8 .x-axis-line-item:nth-of-type(4) {
+  right: 50%;
+  left: 37.5%;
+}
+.count-8 .x-axis-line-item:nth-of-type(5) {
+  right: 37.5%;
+  left: 50%;
+}
+.count-8 .x-axis-line-item:nth-of-type(6) {
+  right: 25%;
+  left: 62.5%;
+}
+.count-8 .x-axis-line-item:nth-of-type(7) {
+  right: 12.5%;
+  left: 75%;
+}
+.count-8 .x-axis-line-item:nth-of-type(8) {
+  right: 0%;
+  left: 87.5%;
+}
+.count-9 .x-axis-line-item:nth-of-type(1) {
+  right: 88.88888889%;
+  left: 0%;
+}
+.count-9 .x-axis-line-item:nth-of-type(2) {
+  right: 77.77777778%;
+  left: 11.11111111%;
+}
+.count-9 .x-axis-line-item:nth-of-type(3) {
+  right: 66.66666667%;
+  left: 22.22222222%;
+}
+.count-9 .x-axis-line-item:nth-of-type(4) {
+  right: 55.55555556%;
+  left: 33.33333333%;
+}
+.count-9 .x-axis-line-item:nth-of-type(5) {
+  right: 44.44444444%;
+  left: 44.44444444%;
+}
+.count-9 .x-axis-line-item:nth-of-type(6) {
+  right: 33.33333333%;
+  left: 55.55555556%;
+}
+.count-9 .x-axis-line-item:nth-of-type(7) {
+  right: 22.22222222%;
+  left: 66.66666667%;
+}
+.count-9 .x-axis-line-item:nth-of-type(8) {
+  right: 11.11111111%;
+  left: 77.77777778%;
+}
+.count-9 .x-axis-line-item:nth-of-type(9) {
+  right: 0%;
+  left: 88.88888889%;
+}
+.count-10 .x-axis-line-item:nth-of-type(1) {
+  right: 90%;
+  left: 0%;
+}
+.count-10 .x-axis-line-item:nth-of-type(2) {
+  right: 80%;
+  left: 10%;
+}
+.count-10 .x-axis-line-item:nth-of-type(3) {
+  right: 70%;
+  left: 20%;
+}
+.count-10 .x-axis-line-item:nth-of-type(4) {
+  right: 60%;
+  left: 30%;
+}
+.count-10 .x-axis-line-item:nth-of-type(5) {
+  right: 50%;
+  left: 40%;
+}
+.count-10 .x-axis-line-item:nth-of-type(6) {
+  right: 40%;
+  left: 50%;
+}
+.count-10 .x-axis-line-item:nth-of-type(7) {
+  right: 30%;
+  left: 60%;
+}
+.count-10 .x-axis-line-item:nth-of-type(8) {
+  right: 20%;
+  left: 70%;
+}
+.count-10 .x-axis-line-item:nth-of-type(9) {
+  right: 10%;
+  left: 80%;
+}
+.count-10 .x-axis-line-item:nth-of-type(10) {
+  right: 0%;
+  left: 90%;
+}
+.x-axis-line {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  border-right: 1px solid #ccd1d9;
+}
+/**
+  * Y axis background lines
+  * --------------------------------------------------
+  *
+  * Recommended usage:
+  *
+  * <ul class="y-axis-bar-list count-{ count }">
+  *   <li class="y-axis-bar-item">
+  *     <span class="y-axis-line"></span>
+  *   </li>
+  * </ul>
+  *
+  */
+.y-axis-line-list {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  bottom: 50px;
+  left: 51px;
+}
+.y-axis-line-item {
+  position: absolute;
+  top: auto;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.count-1 .y-axis-line-item:nth-of-type(1) {
+  bottom: 100%;
+}
+.count-2 .y-axis-line-item:nth-of-type(1) {
+  bottom: 50%;
+}
+.count-2 .y-axis-line-item:nth-of-type(2) {
+  bottom: 100%;
+}
+.count-3 .y-axis-line-item:nth-of-type(1) {
+  bottom: 33.33333333%;
+}
+.count-3 .y-axis-line-item:nth-of-type(2) {
+  bottom: 66.66666667%;
+}
+.count-3 .y-axis-line-item:nth-of-type(3) {
+  bottom: 100%;
+}
+.count-4 .y-axis-line-item:nth-of-type(1) {
+  bottom: 25%;
+}
+.count-4 .y-axis-line-item:nth-of-type(2) {
+  bottom: 50%;
+}
+.count-4 .y-axis-line-item:nth-of-type(3) {
+  bottom: 75%;
+}
+.count-4 .y-axis-line-item:nth-of-type(4) {
+  bottom: 100%;
+}
+.count-5 .y-axis-line-item:nth-of-type(1) {
+  bottom: 20%;
+}
+.count-5 .y-axis-line-item:nth-of-type(2) {
+  bottom: 40%;
+}
+.count-5 .y-axis-line-item:nth-of-type(3) {
+  bottom: 60%;
+}
+.count-5 .y-axis-line-item:nth-of-type(4) {
+  bottom: 80%;
+}
+.count-5 .y-axis-line-item:nth-of-type(5) {
+  bottom: 100%;
+}
+.count-6 .y-axis-line-item:nth-of-type(1) {
+  bottom: 16.66666667%;
+}
+.count-6 .y-axis-line-item:nth-of-type(2) {
+  bottom: 33.33333333%;
+}
+.count-6 .y-axis-line-item:nth-of-type(3) {
+  bottom: 50%;
+}
+.count-6 .y-axis-line-item:nth-of-type(4) {
+  bottom: 66.66666667%;
+}
+.count-6 .y-axis-line-item:nth-of-type(5) {
+  bottom: 83.33333333%;
+}
+.count-6 .y-axis-line-item:nth-of-type(6) {
+  bottom: 100%;
+}
+.count-7 .y-axis-line-item:nth-of-type(1) {
+  bottom: 14.28571429%;
+}
+.count-7 .y-axis-line-item:nth-of-type(2) {
+  bottom: 28.57142857%;
+}
+.count-7 .y-axis-line-item:nth-of-type(3) {
+  bottom: 42.85714286%;
+}
+.count-7 .y-axis-line-item:nth-of-type(4) {
+  bottom: 57.14285714%;
+}
+.count-7 .y-axis-line-item:nth-of-type(5) {
+  bottom: 71.42857143%;
+}
+.count-7 .y-axis-line-item:nth-of-type(6) {
+  bottom: 85.71428571%;
+}
+.count-7 .y-axis-line-item:nth-of-type(7) {
+  bottom: 100%;
+}
+.count-8 .y-axis-line-item:nth-of-type(1) {
+  bottom: 12.5%;
+}
+.count-8 .y-axis-line-item:nth-of-type(2) {
+  bottom: 25%;
+}
+.count-8 .y-axis-line-item:nth-of-type(3) {
+  bottom: 37.5%;
+}
+.count-8 .y-axis-line-item:nth-of-type(4) {
+  bottom: 50%;
+}
+.count-8 .y-axis-line-item:nth-of-type(5) {
+  bottom: 62.5%;
+}
+.count-8 .y-axis-line-item:nth-of-type(6) {
+  bottom: 75%;
+}
+.count-8 .y-axis-line-item:nth-of-type(7) {
+  bottom: 87.5%;
+}
+.count-8 .y-axis-line-item:nth-of-type(8) {
+  bottom: 100%;
+}
+.count-9 .y-axis-line-item:nth-of-type(1) {
+  bottom: 11.11111111%;
+}
+.count-9 .y-axis-line-item:nth-of-type(2) {
+  bottom: 22.22222222%;
+}
+.count-9 .y-axis-line-item:nth-of-type(3) {
+  bottom: 33.33333333%;
+}
+.count-9 .y-axis-line-item:nth-of-type(4) {
+  bottom: 44.44444444%;
+}
+.count-9 .y-axis-line-item:nth-of-type(5) {
+  bottom: 55.55555556%;
+}
+.count-9 .y-axis-line-item:nth-of-type(6) {
+  bottom: 66.66666667%;
+}
+.count-9 .y-axis-line-item:nth-of-type(7) {
+  bottom: 77.77777778%;
+}
+.count-9 .y-axis-line-item:nth-of-type(8) {
+  bottom: 88.88888889%;
+}
+.count-9 .y-axis-line-item:nth-of-type(9) {
+  bottom: 100%;
+}
+.count-10 .y-axis-line-item:nth-of-type(1) {
+  bottom: 10%;
+}
+.count-10 .y-axis-line-item:nth-of-type(2) {
+  bottom: 20%;
+}
+.count-10 .y-axis-line-item:nth-of-type(3) {
+  bottom: 30%;
+}
+.count-10 .y-axis-line-item:nth-of-type(4) {
+  bottom: 40%;
+}
+.count-10 .y-axis-line-item:nth-of-type(5) {
+  bottom: 50%;
+}
+.count-10 .y-axis-line-item:nth-of-type(6) {
+  bottom: 60%;
+}
+.count-10 .y-axis-line-item:nth-of-type(7) {
+  bottom: 70%;
+}
+.count-10 .y-axis-line-item:nth-of-type(8) {
+  bottom: 80%;
+}
+.count-10 .y-axis-line-item:nth-of-type(9) {
+  bottom: 90%;
+}
+.count-10 .y-axis-line-item:nth-of-type(10) {
+  bottom: 100%;
+}
+.y-axis-line {
+  display: block;
+  height: 1px;
+  background-color: #ccd1d9;
+}
+/**
+  * X axis labels
+  * --------------------------------------------------
+  *
+  * Recommended usage:
+  *
+  * <ul class="x-axis-label-list count-{ count }">
+  *   <li class="x-axis-label-item">
+  *     <span class="x-axis-label">{ label }</span>
+  *   </li>
+  * </ul>
+  *
+  */
+.x-axis-label-list {
+  position: absolute;
+  top: auto;
+  right: 5px;
+  bottom: 30px;
+}
+.h-bar-chart .x-axis-label-list {
+  right: 5px;
+  left: 56px;
+}
+.v-bar-chart .x-axis-label-list {
+  right: 10px;
+  left: 50px;
+}
+.x-axis-label-item {
+  display: block;
+  float: left;
+  width: 100%;
+}
+.count-1 .x-axis-label-item {
+  width: 100%;
+}
+.count-2 .x-axis-label-item {
+  width: 50%;
+}
+.count-3 .x-axis-label-item {
+  width: 33.33333333%;
+}
+.count-4 .x-axis-label-item {
+  width: 25%;
+}
+.count-5 .x-axis-label-item {
+  width: 20%;
+}
+.count-6 .x-axis-label-item {
+  width: 16.66666667%;
+}
+.count-7 .x-axis-label-item {
+  width: 14.28571429%;
+}
+.count-8 .x-axis-label-item {
+  width: 12.5%;
+}
+.count-9 .x-axis-label-item {
+  width: 11.11111111%;
+}
+.count-10 .x-axis-label-item {
+  width: 10%;
+}
+.x-axis-label {
+  position: relative;
+  display: block;
+  color: #656d78;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1;
+}
+.h-bar-chart .x-axis-label {
+  text-align: center;
+}
+.v-bar-chart .x-axis-label {
+  text-align: right;
+}
+/**
+  * Y axis labels
+  * --------------------------------------------------
+  *
+  * Recommended usage:
+  *
+  * <ul class="y-axis-label-list count-{ count }">
+  *   <li class="y-axis-label-item">
+  *     <span class="y-axis-label">{ label }</span>
+  *   </li>
+  * </ul>
+  *
+  */
+.y-axis-label-list {
+  position: absolute;
+  top: 10px;
+  right: auto;
+  bottom: 50px;
+  left: 0;
+  width: 40px;
+}
+.y-axis-label-item {
+  position: absolute;
+  top: auto;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.count-1 .y-axis-label-item:nth-of-type(1) {
+  bottom: 100%;
+}
+.count-2 .y-axis-label-item:nth-of-type(1) {
+  bottom: 50%;
+}
+.count-2 .y-axis-label-item:nth-of-type(2) {
+  bottom: 100%;
+}
+.count-3 .y-axis-label-item:nth-of-type(1) {
+  bottom: 33.33333333%;
+}
+.count-3 .y-axis-label-item:nth-of-type(2) {
+  bottom: 66.66666667%;
+}
+.count-3 .y-axis-label-item:nth-of-type(3) {
+  bottom: 100%;
+}
+.count-4 .y-axis-label-item:nth-of-type(1) {
+  bottom: 25%;
+}
+.count-4 .y-axis-label-item:nth-of-type(2) {
+  bottom: 50%;
+}
+.count-4 .y-axis-label-item:nth-of-type(3) {
+  bottom: 75%;
+}
+.count-4 .y-axis-label-item:nth-of-type(4) {
+  bottom: 100%;
+}
+.count-5 .y-axis-label-item:nth-of-type(1) {
+  bottom: 20%;
+}
+.count-5 .y-axis-label-item:nth-of-type(2) {
+  bottom: 40%;
+}
+.count-5 .y-axis-label-item:nth-of-type(3) {
+  bottom: 60%;
+}
+.count-5 .y-axis-label-item:nth-of-type(4) {
+  bottom: 80%;
+}
+.count-5 .y-axis-label-item:nth-of-type(5) {
+  bottom: 100%;
+}
+.count-6 .y-axis-label-item:nth-of-type(1) {
+  bottom: 16.66666667%;
+}
+.count-6 .y-axis-label-item:nth-of-type(2) {
+  bottom: 33.33333333%;
+}
+.count-6 .y-axis-label-item:nth-of-type(3) {
+  bottom: 50%;
+}
+.count-6 .y-axis-label-item:nth-of-type(4) {
+  bottom: 66.66666667%;
+}
+.count-6 .y-axis-label-item:nth-of-type(5) {
+  bottom: 83.33333333%;
+}
+.count-6 .y-axis-label-item:nth-of-type(6) {
+  bottom: 100%;
+}
+.count-7 .y-axis-label-item:nth-of-type(1) {
+  bottom: 14.28571429%;
+}
+.count-7 .y-axis-label-item:nth-of-type(2) {
+  bottom: 28.57142857%;
+}
+.count-7 .y-axis-label-item:nth-of-type(3) {
+  bottom: 42.85714286%;
+}
+.count-7 .y-axis-label-item:nth-of-type(4) {
+  bottom: 57.14285714%;
+}
+.count-7 .y-axis-label-item:nth-of-type(5) {
+  bottom: 71.42857143%;
+}
+.count-7 .y-axis-label-item:nth-of-type(6) {
+  bottom: 85.71428571%;
+}
+.count-7 .y-axis-label-item:nth-of-type(7) {
+  bottom: 100%;
+}
+.count-8 .y-axis-label-item:nth-of-type(1) {
+  bottom: 12.5%;
+}
+.count-8 .y-axis-label-item:nth-of-type(2) {
+  bottom: 25%;
+}
+.count-8 .y-axis-label-item:nth-of-type(3) {
+  bottom: 37.5%;
+}
+.count-8 .y-axis-label-item:nth-of-type(4) {
+  bottom: 50%;
+}
+.count-8 .y-axis-label-item:nth-of-type(5) {
+  bottom: 62.5%;
+}
+.count-8 .y-axis-label-item:nth-of-type(6) {
+  bottom: 75%;
+}
+.count-8 .y-axis-label-item:nth-of-type(7) {
+  bottom: 87.5%;
+}
+.count-8 .y-axis-label-item:nth-of-type(8) {
+  bottom: 100%;
+}
+.count-9 .y-axis-label-item:nth-of-type(1) {
+  bottom: 11.11111111%;
+}
+.count-9 .y-axis-label-item:nth-of-type(2) {
+  bottom: 22.22222222%;
+}
+.count-9 .y-axis-label-item:nth-of-type(3) {
+  bottom: 33.33333333%;
+}
+.count-9 .y-axis-label-item:nth-of-type(4) {
+  bottom: 44.44444444%;
+}
+.count-9 .y-axis-label-item:nth-of-type(5) {
+  bottom: 55.55555556%;
+}
+.count-9 .y-axis-label-item:nth-of-type(6) {
+  bottom: 66.66666667%;
+}
+.count-9 .y-axis-label-item:nth-of-type(7) {
+  bottom: 77.77777778%;
+}
+.count-9 .y-axis-label-item:nth-of-type(8) {
+  bottom: 88.88888889%;
+}
+.count-9 .y-axis-label-item:nth-of-type(9) {
+  bottom: 100%;
+}
+.count-10 .y-axis-label-item:nth-of-type(1) {
+  bottom: 10%;
+}
+.count-10 .y-axis-label-item:nth-of-type(2) {
+  bottom: 20%;
+}
+.count-10 .y-axis-label-item:nth-of-type(3) {
+  bottom: 30%;
+}
+.count-10 .y-axis-label-item:nth-of-type(4) {
+  bottom: 40%;
+}
+.count-10 .y-axis-label-item:nth-of-type(5) {
+  bottom: 50%;
+}
+.count-10 .y-axis-label-item:nth-of-type(6) {
+  bottom: 60%;
+}
+.count-10 .y-axis-label-item:nth-of-type(7) {
+  bottom: 70%;
+}
+.count-10 .y-axis-label-item:nth-of-type(8) {
+  bottom: 80%;
+}
+.count-10 .y-axis-label-item:nth-of-type(9) {
+  bottom: 90%;
+}
+.count-10 .y-axis-label-item:nth-of-type(10) {
+  bottom: 100%;
+}
+.y-axis-label {
+  position: relative;
+  display: block;
+  color: #656d78;
+  text-align: right;
+  font-size: 12px;
+  line-height: 1;
+}
+.h-bar-chart .y-axis-label {
+  bottom: -6px;
+}
+.v-bar-chart .y-axis-label {
+  bottom: -18px;
+}
+/**
+  * X axis bars
+  * --------------------------------------------------
+  *
+  * Recommended usage:
+  *
+  * <ul class="x-axis-bar-list count-{ count }">
+  *   <li class="x-axis-bar-item { nested-bars }">
+  *     <span class="x-axis-bar { primary|secondary|tertiary }" style="top: { value in % };">
+  *       <span class="x-axis-bar-value" data-value="{ value }"></span>
+  *     </span>
+  *     <span class="x-axis-bullet-bar" style="top: { value in % }"></span>
+  *     <span class="x-axis-bar-target-line" style="bottom: { value in % };"></span>
+  *   </li>
+  * </ul>
+  *
+  */
+.x-axis-bar-list {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  bottom: 51px;
+  left: 56px;
+}
+.x-axis-bar-item {
+  position: absolute;
+  top: 0;
+  right: auto;
+  bottom: 0;
+  left: 0;
+}
+.count-1 .x-axis-bar-item:nth-of-type(1) {
+  right: 0%;
+  left: 0%;
+}
+.count-2 .x-axis-bar-item:nth-of-type(1) {
+  right: 50%;
+  left: 0%;
+}
+.count-2 .x-axis-bar-item:nth-of-type(2) {
+  right: 0%;
+  left: 50%;
+}
+.count-3 .x-axis-bar-item:nth-of-type(1) {
+  right: 66.66666667%;
+  left: 0%;
+}
+.count-3 .x-axis-bar-item:nth-of-type(2) {
+  right: 33.33333333%;
+  left: 33.33333333%;
+}
+.count-3 .x-axis-bar-item:nth-of-type(3) {
+  right: 0%;
+  left: 66.66666667%;
+}
+.count-4 .x-axis-bar-item:nth-of-type(1) {
+  right: 75%;
+  left: 0%;
+}
+.count-4 .x-axis-bar-item:nth-of-type(2) {
+  right: 50%;
+  left: 25%;
+}
+.count-4 .x-axis-bar-item:nth-of-type(3) {
+  right: 25%;
+  left: 50%;
+}
+.count-4 .x-axis-bar-item:nth-of-type(4) {
+  right: 0%;
+  left: 75%;
+}
+.count-5 .x-axis-bar-item:nth-of-type(1) {
+  right: 80%;
+  left: 0%;
+}
+.count-5 .x-axis-bar-item:nth-of-type(2) {
+  right: 60%;
+  left: 20%;
+}
+.count-5 .x-axis-bar-item:nth-of-type(3) {
+  right: 40%;
+  left: 40%;
+}
+.count-5 .x-axis-bar-item:nth-of-type(4) {
+  right: 20%;
+  left: 60%;
+}
+.count-5 .x-axis-bar-item:nth-of-type(5) {
+  right: 0%;
+  left: 80%;
+}
+.count-6 .x-axis-bar-item:nth-of-type(1) {
+  right: 83.33333333%;
+  left: 0%;
+}
+.count-6 .x-axis-bar-item:nth-of-type(2) {
+  right: 66.66666667%;
+  left: 16.66666667%;
+}
+.count-6 .x-axis-bar-item:nth-of-type(3) {
+  right: 50%;
+  left: 33.33333333%;
+}
+.count-6 .x-axis-bar-item:nth-of-type(4) {
+  right: 33.33333333%;
+  left: 50%;
+}
+.count-6 .x-axis-bar-item:nth-of-type(5) {
+  right: 16.66666667%;
+  left: 66.66666667%;
+}
+.count-6 .x-axis-bar-item:nth-of-type(6) {
+  right: 0%;
+  left: 83.33333333%;
+}
+.count-7 .x-axis-bar-item:nth-of-type(1) {
+  right: 85.71428571%;
+  left: 0%;
+}
+.count-7 .x-axis-bar-item:nth-of-type(2) {
+  right: 71.42857143%;
+  left: 14.28571429%;
+}
+.count-7 .x-axis-bar-item:nth-of-type(3) {
+  right: 57.14285714%;
+  left: 28.57142857%;
+}
+.count-7 .x-axis-bar-item:nth-of-type(4) {
+  right: 42.85714286%;
+  left: 42.85714286%;
+}
+.count-7 .x-axis-bar-item:nth-of-type(5) {
+  right: 28.57142857%;
+  left: 57.14285714%;
+}
+.count-7 .x-axis-bar-item:nth-of-type(6) {
+  right: 14.28571429%;
+  left: 71.42857143%;
+}
+.count-7 .x-axis-bar-item:nth-of-type(7) {
+  right: 0%;
+  left: 85.71428571%;
+}
+.count-8 .x-axis-bar-item:nth-of-type(1) {
+  right: 87.5%;
+  left: 0%;
+}
+.count-8 .x-axis-bar-item:nth-of-type(2) {
+  right: 75%;
+  left: 12.5%;
+}
+.count-8 .x-axis-bar-item:nth-of-type(3) {
+  right: 62.5%;
+  left: 25%;
+}
+.count-8 .x-axis-bar-item:nth-of-type(4) {
+  right: 50%;
+  left: 37.5%;
+}
+.count-8 .x-axis-bar-item:nth-of-type(5) {
+  right: 37.5%;
+  left: 50%;
+}
+.count-8 .x-axis-bar-item:nth-of-type(6) {
+  right: 25%;
+  left: 62.5%;
+}
+.count-8 .x-axis-bar-item:nth-of-type(7) {
+  right: 12.5%;
+  left: 75%;
+}
+.count-8 .x-axis-bar-item:nth-of-type(8) {
+  right: 0%;
+  left: 87.5%;
+}
+.count-9 .x-axis-bar-item:nth-of-type(1) {
+  right: 88.88888889%;
+  left: 0%;
+}
+.count-9 .x-axis-bar-item:nth-of-type(2) {
+  right: 77.77777778%;
+  left: 11.11111111%;
+}
+.count-9 .x-axis-bar-item:nth-of-type(3) {
+  right: 66.66666667%;
+  left: 22.22222222%;
+}
+.count-9 .x-axis-bar-item:nth-of-type(4) {
+  right: 55.55555556%;
+  left: 33.33333333%;
+}
+.count-9 .x-axis-bar-item:nth-of-type(5) {
+  right: 44.44444444%;
+  left: 44.44444444%;
+}
+.count-9 .x-axis-bar-item:nth-of-type(6) {
+  right: 33.33333333%;
+  left: 55.55555556%;
+}
+.count-9 .x-axis-bar-item:nth-of-type(7) {
+  right: 22.22222222%;
+  left: 66.66666667%;
+}
+.count-9 .x-axis-bar-item:nth-of-type(8) {
+  right: 11.11111111%;
+  left: 77.77777778%;
+}
+.count-9 .x-axis-bar-item:nth-of-type(9) {
+  right: 0%;
+  left: 88.88888889%;
+}
+.count-10 .x-axis-bar-item:nth-of-type(1) {
+  right: 90%;
+  left: 0%;
+}
+.count-10 .x-axis-bar-item:nth-of-type(2) {
+  right: 80%;
+  left: 10%;
+}
+.count-10 .x-axis-bar-item:nth-of-type(3) {
+  right: 70%;
+  left: 20%;
+}
+.count-10 .x-axis-bar-item:nth-of-type(4) {
+  right: 60%;
+  left: 30%;
+}
+.count-10 .x-axis-bar-item:nth-of-type(5) {
+  right: 50%;
+  left: 40%;
+}
+.count-10 .x-axis-bar-item:nth-of-type(6) {
+  right: 40%;
+  left: 50%;
+}
+.count-10 .x-axis-bar-item:nth-of-type(7) {
+  right: 30%;
+  left: 60%;
+}
+.count-10 .x-axis-bar-item:nth-of-type(8) {
+  right: 20%;
+  left: 70%;
+}
+.count-10 .x-axis-bar-item:nth-of-type(9) {
+  right: 10%;
+  left: 80%;
+}
+.count-10 .x-axis-bar-item:nth-of-type(10) {
+  right: 0%;
+  left: 90%;
+}
+.x-axis-bar {
+  position: absolute;
+  top: auto;
+  right: 5px;
+  bottom: 0;
+  left: 5px;
+  display: block;
+  border: 1px solid transparent;
+  border-bottom: none;
+  border-radius: 3px 3px 0 0;
+  background-color: #4fc1e9;
+  box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.4);
+  transition: all 0.15s linear;
+}
+.x-axis-bar.primary {
+  border-color: #1f2225;
+  background-image: -webkit-gradient(linear, 0% top, 100% top, from(#7e8692), to(#656d78));
+  background-image: -webkit-linear-gradient(left, color-stop(#7e8692 0%), color-stop(#656d78 100%));
+  background-image: -moz-linear-gradient(left, #7e8692 0%, #656d78 100%);
+  background-image: linear-gradient(to right, #7e8692 0%, #656d78 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff7e8692', endColorstr='#ff656d78', GradientType=1);
+}
+.x-axis-bar.secondary {
+  border-color: #472796;
+  background-image: -webkit-gradient(linear, 0% top, 100% top, from(#b6a2e7), to(#967adc));
+  background-image: -webkit-linear-gradient(left, color-stop(#b6a2e7 0%), color-stop(#967adc 100%));
+  background-image: -moz-linear-gradient(left, #b6a2e7 0%, #967adc 100%);
+  background-image: linear-gradient(to right, #b6a2e7 0%, #967adc 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffb6a2e7', endColorstr='#ff967adc', GradientType=1);
+}
+.x-axis-bar.tertiary {
+  border-color: #145168;
+  background-image: -webkit-gradient(linear, 0% top, 100% top, from(#59bbe0), to(#3bafda));
+  background-image: -webkit-linear-gradient(left, color-stop(#59bbe0 0%), color-stop(#3bafda 100%));
+  background-image: -moz-linear-gradient(left, #59bbe0 0%, #3bafda 100%);
+  background-image: linear-gradient(to right, #59bbe0 0%, #3bafda 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff59bbe0', endColorstr='#ff3bafda', GradientType=1);
+}
+.x-axis-bar.dashed {
+  border-color: #748298;
+  border-style: dashed;
+  border-bottom: none;
+  background-color: #fff;
+}
+.nested-bars .x-axis-bar:nth-of-type(1) {
+  right: 5px;
+  left: 5px;
+}
+.nested-bars .x-axis-bar:nth-of-type(2) {
+  right: 10px;
+  left: 10px;
+}
+.nested-bars .x-axis-bar:nth-of-type(3) {
+  right: 15px;
+  left: 15px;
+}
+.x-axis-bar-value {
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  margin-left: -5px;
+  width: 10px;
+  height: 10px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  transition: all 0.15s linear;
+}
+.primary .x-axis-bar-value {
+  border-color: #1f2225;
+  background-image: -webkit-gradient(linear, 0% top, 100% top, from(#7e8692), to(#656d78));
+  background-image: -webkit-linear-gradient(left, color-stop(#7e8692 0%), color-stop(#656d78 100%));
+  background-image: -moz-linear-gradient(left, #7e8692 0%, #656d78 100%);
+  background-image: linear-gradient(to right, #7e8692 0%, #656d78 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff7e8692', endColorstr='#ff656d78', GradientType=1);
+}
+.secondary .x-axis-bar-value {
+  border-color: #472796;
+  background-image: -webkit-gradient(linear, 0% top, 100% top, from(#b6a2e7), to(#967adc));
+  background-image: -webkit-linear-gradient(left, color-stop(#b6a2e7 0%), color-stop(#967adc 100%));
+  background-image: -moz-linear-gradient(left, #b6a2e7 0%, #967adc 100%);
+  background-image: linear-gradient(to right, #b6a2e7 0%, #967adc 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffb6a2e7', endColorstr='#ff967adc', GradientType=1);
+}
+.tertiary .x-axis-bar-value {
+  border-color: #145168;
+  background-image: -webkit-gradient(linear, 0% top, 100% top, from(#59bbe0), to(#3bafda));
+  background-image: -webkit-linear-gradient(left, color-stop(#59bbe0 0%), color-stop(#3bafda 100%));
+  background-image: -moz-linear-gradient(left, #59bbe0 0%, #3bafda 100%);
+  background-image: linear-gradient(to right, #59bbe0 0%, #3bafda 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff59bbe0', endColorstr='#ff3bafda', GradientType=1);
+}
+.dashed .x-axis-bar-value {
+  border-color: #748298;
+  background-color: #fff;
+}
+.x-axis-bar-value:hover:after,
+.x-axis-bar-value:focus:after,
+.x-axis-bar-value:hover:before,
+.x-axis-bar-value:focus:before {
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.15s linear;
+}
+.x-axis-bar-value:after {
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  z-index: 200;
+  visibility: hidden;
+  margin-left: -20px;
+  padding: 2px 0;
+  width: 40px;
+  border-radius: 3px;
+  background-color: #434a54;
+  color: #fff;
+  content: attr(data-value);
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 1.5;
+  opacity: 0;
+}
+.x-axis-bar-value:before {
+  position: absolute;
+  top: -3px;
+  left: 50%;
+  z-index: 200;
+  visibility: hidden;
+  margin-left: -6px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-top-color: #434a54;
+  content: '';
+  opacity: 0;
+}
+.x-axis-bullet-bar {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  bottom: 0;
+  left: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-bottom: none;
+  border-radius: 3px 3px 0 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: inset 0px 0px 6px 1px rgba(0, 0, 0, 0.4);
+  transition: all 0.15s linear;
+}
+.x-axis-bar-target-line {
+  position: absolute;
+  top: auto;
+  right: 2px;
+  bottom: 0;
+  left: 2px;
+  height: 1px;
+  background-color: #1f2125;
+}
+/**
+  * Y axis bars
+  * --------------------------------------------------
+  *
+  * Recommended usage:
+  *
+  * <ul class="y-axis-bar-list count-{ count }">
+  *   <li class="y-axis-bar-item { nested-bars }">
+  *     <span class="y-axis-bar { primary|secondary|tertiary }" style="right: { value in % };">
+  *       <span class="y-axis-bar-value" data-value="{ value }"></span>
+  *     </span>
+  *     <span class="y-axis-bullet-bar" style="right: { value in % }"></span>
+  *     <span class="y-axis-bar-target-line" style="left: { value in % };"></span>
+  *   </li>
+  * </ul>
+  *
+  */
+.y-axis-bar-list {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  bottom: 56px;
+  left: 51px;
+}
+.y-axis-bar-item {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: auto;
+  left: 0;
+}
+.count-1 .y-axis-bar-item:nth-of-type(1) {
+  top: 0%;
+  bottom: 0%;
+}
+.count-2 .y-axis-bar-item:nth-of-type(1) {
+  top: 0%;
+  bottom: 50%;
+}
+.count-2 .y-axis-bar-item:nth-of-type(2) {
+  top: 50%;
+  bottom: 0%;
+}
+.count-3 .y-axis-bar-item:nth-of-type(1) {
+  top: 0%;
+  bottom: 66.66666667%;
+}
+.count-3 .y-axis-bar-item:nth-of-type(2) {
+  top: 33.33333333%;
+  bottom: 33.33333333%;
+}
+.count-3 .y-axis-bar-item:nth-of-type(3) {
+  top: 66.66666667%;
+  bottom: 0%;
+}
+.count-4 .y-axis-bar-item:nth-of-type(1) {
+  top: 0%;
+  bottom: 75%;
+}
+.count-4 .y-axis-bar-item:nth-of-type(2) {
+  top: 25%;
+  bottom: 50%;
+}
+.count-4 .y-axis-bar-item:nth-of-type(3) {
+  top: 50%;
+  bottom: 25%;
+}
+.count-4 .y-axis-bar-item:nth-of-type(4) {
+  top: 75%;
+  bottom: 0%;
+}
+.count-5 .y-axis-bar-item:nth-of-type(1) {
+  top: 0%;
+  bottom: 80%;
+}
+.count-5 .y-axis-bar-item:nth-of-type(2) {
+  top: 20%;
+  bottom: 60%;
+}
+.count-5 .y-axis-bar-item:nth-of-type(3) {
+  top: 40%;
+  bottom: 40%;
+}
+.count-5 .y-axis-bar-item:nth-of-type(4) {
+  top: 60%;
+  bottom: 20%;
+}
+.count-5 .y-axis-bar-item:nth-of-type(5) {
+  top: 80%;
+  bottom: 0%;
+}
+.count-6 .y-axis-bar-item:nth-of-type(1) {
+  top: 0%;
+  bottom: 83.33333333%;
+}
+.count-6 .y-axis-bar-item:nth-of-type(2) {
+  top: 16.66666667%;
+  bottom: 66.66666667%;
+}
+.count-6 .y-axis-bar-item:nth-of-type(3) {
+  top: 33.33333333%;
+  bottom: 50%;
+}
+.count-6 .y-axis-bar-item:nth-of-type(4) {
+  top: 50%;
+  bottom: 33.33333333%;
+}
+.count-6 .y-axis-bar-item:nth-of-type(5) {
+  top: 66.66666667%;
+  bottom: 16.66666667%;
+}
+.count-6 .y-axis-bar-item:nth-of-type(6) {
+  top: 83.33333333%;
+  bottom: 0%;
+}
+.count-7 .y-axis-bar-item:nth-of-type(1) {
+  top: 0%;
+  bottom: 85.71428571%;
+}
+.count-7 .y-axis-bar-item:nth-of-type(2) {
+  top: 14.28571429%;
+  bottom: 71.42857143%;
+}
+.count-7 .y-axis-bar-item:nth-of-type(3) {
+  top: 28.57142857%;
+  bottom: 57.14285714%;
+}
+.count-7 .y-axis-bar-item:nth-of-type(4) {
+  top: 42.85714286%;
+  bottom: 42.85714286%;
+}
+.count-7 .y-axis-bar-item:nth-of-type(5) {
+  top: 57.14285714%;
+  bottom: 28.57142857%;
+}
+.count-7 .y-axis-bar-item:nth-of-type(6) {
+  top: 71.42857143%;
+  bottom: 14.28571429%;
+}
+.count-7 .y-axis-bar-item:nth-of-type(7) {
+  top: 85.71428571%;
+  bottom: 0%;
+}
+.count-8 .y-axis-bar-item:nth-of-type(1) {
+  top: 0%;
+  bottom: 87.5%;
+}
+.count-8 .y-axis-bar-item:nth-of-type(2) {
+  top: 12.5%;
+  bottom: 75%;
+}
+.count-8 .y-axis-bar-item:nth-of-type(3) {
+  top: 25%;
+  bottom: 62.5%;
+}
+.count-8 .y-axis-bar-item:nth-of-type(4) {
+  top: 37.5%;
+  bottom: 50%;
+}
+.count-8 .y-axis-bar-item:nth-of-type(5) {
+  top: 50%;
+  bottom: 37.5%;
+}
+.count-8 .y-axis-bar-item:nth-of-type(6) {
+  top: 62.5%;
+  bottom: 25%;
+}
+.count-8 .y-axis-bar-item:nth-of-type(7) {
+  top: 75%;
+  bottom: 12.5%;
+}
+.count-8 .y-axis-bar-item:nth-of-type(8) {
+  top: 87.5%;
+  bottom: 0%;
+}
+.count-9 .y-axis-bar-item:nth-of-type(1) {
+  top: 0%;
+  bottom: 88.88888889%;
+}
+.count-9 .y-axis-bar-item:nth-of-type(2) {
+  top: 11.11111111%;
+  bottom: 77.77777778%;
+}
+.count-9 .y-axis-bar-item:nth-of-type(3) {
+  top: 22.22222222%;
+  bottom: 66.66666667%;
+}
+.count-9 .y-axis-bar-item:nth-of-type(4) {
+  top: 33.33333333%;
+  bottom: 55.55555556%;
+}
+.count-9 .y-axis-bar-item:nth-of-type(5) {
+  top: 44.44444444%;
+  bottom: 44.44444444%;
+}
+.count-9 .y-axis-bar-item:nth-of-type(6) {
+  top: 55.55555556%;
+  bottom: 33.33333333%;
+}
+.count-9 .y-axis-bar-item:nth-of-type(7) {
+  top: 66.66666667%;
+  bottom: 22.22222222%;
+}
+.count-9 .y-axis-bar-item:nth-of-type(8) {
+  top: 77.77777778%;
+  bottom: 11.11111111%;
+}
+.count-9 .y-axis-bar-item:nth-of-type(9) {
+  top: 88.88888889%;
+  bottom: 0%;
+}
+.count-10 .y-axis-bar-item:nth-of-type(1) {
+  top: 0%;
+  bottom: 90%;
+}
+.count-10 .y-axis-bar-item:nth-of-type(2) {
+  top: 10%;
+  bottom: 80%;
+}
+.count-10 .y-axis-bar-item:nth-of-type(3) {
+  top: 20%;
+  bottom: 70%;
+}
+.count-10 .y-axis-bar-item:nth-of-type(4) {
+  top: 30%;
+  bottom: 60%;
+}
+.count-10 .y-axis-bar-item:nth-of-type(5) {
+  top: 40%;
+  bottom: 50%;
+}
+.count-10 .y-axis-bar-item:nth-of-type(6) {
+  top: 50%;
+  bottom: 40%;
+}
+.count-10 .y-axis-bar-item:nth-of-type(7) {
+  top: 60%;
+  bottom: 30%;
+}
+.count-10 .y-axis-bar-item:nth-of-type(8) {
+  top: 70%;
+  bottom: 20%;
+}
+.count-10 .y-axis-bar-item:nth-of-type(9) {
+  top: 80%;
+  bottom: 10%;
+}
+.count-10 .y-axis-bar-item:nth-of-type(10) {
+  top: 90%;
+  bottom: 0%;
+}
+.y-axis-bar {
+  position: absolute;
+  top: 5px;
+  right: auto;
+  bottom: 5px;
+  left: 0;
+  display: block;
+  border: 1px solid transparent;
+  border-left: none;
+  border-radius: 0 3px 3px 0;
+  background-color: #4fc1e9;
+  box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.4);
+  transition: all 0.15s linear;
+}
+.y-axis-bar.primary {
+  border-color: #1f2225;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#7e8692), to(#656d78));
+  background-image: -webkit-linear-gradient(top, #7e8692, 0%, #656d78, 100%);
+  background-image: -moz-linear-gradient(top, #7e8692 0%, #656d78 100%);
+  background-image: linear-gradient(to bottom, #7e8692 0%, #656d78 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff7e8692', endColorstr='#ff656d78', GradientType=0);
+}
+.y-axis-bar.secondary {
+  border-color: #472796;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#b6a2e7), to(#967adc));
+  background-image: -webkit-linear-gradient(top, #b6a2e7, 0%, #967adc, 100%);
+  background-image: -moz-linear-gradient(top, #b6a2e7 0%, #967adc 100%);
+  background-image: linear-gradient(to bottom, #b6a2e7 0%, #967adc 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffb6a2e7', endColorstr='#ff967adc', GradientType=0);
+}
+.y-axis-bar.tertiary {
+  border-color: #145168;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#59bbe0), to(#3bafda));
+  background-image: -webkit-linear-gradient(top, #59bbe0, 0%, #3bafda, 100%);
+  background-image: -moz-linear-gradient(top, #59bbe0 0%, #3bafda 100%);
+  background-image: linear-gradient(to bottom, #59bbe0 0%, #3bafda 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff59bbe0', endColorstr='#ff3bafda', GradientType=0);
+}
+.y-axis-bar.dashed {
+  border-color: #748298;
+  border-style: dashed;
+  border-left: none;
+  background-color: #fff;
+}
+.nested-bars .y-axis-bar:nth-of-type(1) {
+  top: 5px;
+  bottom: 5px;
+}
+.nested-bars .y-axis-bar:nth-of-type(2) {
+  top: 10px;
+  bottom: 10px;
+}
+.nested-bars .y-axis-bar:nth-of-type(3) {
+  top: 15px;
+  bottom: 15px;
+}
+.y-axis-bar-value {
+  position: absolute;
+  top: 50%;
+  right: -5px;
+  margin-top: -5px;
+  width: 10px;
+  height: 10px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  transition: all 0.15s linear;
+}
+.primary .y-axis-bar-value {
+  border-color: #1f2225;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#7e8692), to(#656d78));
+  background-image: -webkit-linear-gradient(top, #7e8692, 0%, #656d78, 100%);
+  background-image: -moz-linear-gradient(top, #7e8692 0%, #656d78 100%);
+  background-image: linear-gradient(to bottom, #7e8692 0%, #656d78 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff7e8692', endColorstr='#ff656d78', GradientType=0);
+}
+.secondary > .y-axis-bar-value {
+  border-color: #472796;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#b6a2e7), to(#967adc));
+  background-image: -webkit-linear-gradient(top, #b6a2e7, 0%, #967adc, 100%);
+  background-image: -moz-linear-gradient(top, #b6a2e7 0%, #967adc 100%);
+  background-image: linear-gradient(to bottom, #b6a2e7 0%, #967adc 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffb6a2e7', endColorstr='#ff967adc', GradientType=0);
+}
+.tertiary > .y-axis-bar-value {
+  border-color: #145168;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#59bbe0), to(#3bafda));
+  background-image: -webkit-linear-gradient(top, #59bbe0, 0%, #3bafda, 100%);
+  background-image: -moz-linear-gradient(top, #59bbe0 0%, #3bafda 100%);
+  background-image: linear-gradient(to bottom, #59bbe0 0%, #3bafda 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff59bbe0', endColorstr='#ff3bafda', GradientType=0);
+}
+.dashed .y-axis-bar-value {
+  border-color: #748298;
+  background-color: #fff;
+}
+.y-axis-bar-value:hover:after,
+.y-axis-bar-value:focus:after,
+.y-axis-bar-value:hover:before,
+.y-axis-bar-value:focus:before {
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.15s linear;
+}
+.y-axis-bar-value:after {
+  position: absolute;
+  top: 50%;
+  right: -43px;
+  z-index: 200;
+  visibility: hidden;
+  margin-top: -11px;
+  padding: 2px 0;
+  width: 40px;
+  border-radius: 3px;
+  background-color: #434a54;
+  color: #fff;
+  content: attr(data-value);
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 1.5;
+  opacity: 0;
+}
+.y-axis-bar-value:before {
+  position: absolute;
+  top: 50%;
+  right: -3px;
+  z-index: 200;
+  visibility: hidden;
+  margin-top: -6px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-right-color: #434a54;
+  content: '';
+  opacity: 0;
+}
+.y-axis-bullet-bar {
+  position: absolute;
+  top: 15px;
+  right: 0;
+  bottom: 15px;
+  left: 0;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-left: none;
+  border-radius: 0 3px 3px 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.3), 0 1px 0 0 rgba(255, 255, 255, 0.3);
+  transition: all 0.15s linear;
+}
+.y-axis-bar-target-line {
+  position: absolute;
+  top: 2px;
+  right: auto;
+  bottom: 2px;
+  left: 0;
+  width: 1px;
+  background-color: #1f2125;
 }
