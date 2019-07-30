@@ -1,49 +1,25 @@
 @import 'reset';
+@import "headernav";
 
 *{font-family: Sans-Serif}
+
+// color variables
+@primary-color: #2e4482;
+@highlight-color: yellow;
+@text-color: white;
+@background-color: black;
 
 @tablet: ~"only screen and (min-width: 500px)";
 @desktop: ~"only screen and (min-width: 1000px)";
 
 body {
-  max-width: 1300px;
+  max-width: 1000px;
   margin: 0 auto;
-  background-color: black;
-  color: white;
+  background-color: @background-color;
+  color: @text-color;
   display: flex;
   flex-direction: column;
   align-content: center;
-
-  nav {
-    display: flex;
-    align-content: center;
-    background: url(../img/banner.jpg);
-    padding: 1rem;
-
-    #logo {
-      display: flex;
-      flex-grow: 1;
-    }
-
-    a {
-      align-self: space-between;
-      justify-self: center;
-      text-decoration: none;
-      color: white;
-      padding: 1rem;
-      height: 1.5rem;
-
-      :hover :visited {
-        color: white;
-      }
-    }
-
-    .nav_app_button {
-      background: darkblue;
-      border-radius: .5rem;
-    }
-  }
-
 
   .section_1 {
     display: flex;
@@ -75,7 +51,7 @@ body {
 
       h4 {
         text-align: center;
-        color: yellow;
+        color: @highlight-color;
         margin-top: 3rem;
 
         @media @tablet {
@@ -95,8 +71,8 @@ body {
         font-size: 1rem;
 
         &:hover {
-          background: black;
-          color: white;
+          background: @background-color;
+          color: @text-color;
         }
       }
     }
@@ -105,7 +81,7 @@ body {
   .section_2 {
     display: flex;
     flex-direction: column;
-    border-top: 1px solid white;
+    border-top: 1px solid @text-color;
     padding-top: 3rem;
     width: 90%;
     margin: 6rem auto 0 auto;
@@ -142,7 +118,7 @@ body {
       }
 
       li {
-        border: 1px solid white;
+        border: 1px solid @primary-color;
         border-radius: .5rem;
         padding: 1rem;
         margin: 1rem auto 0 auto;
@@ -166,7 +142,7 @@ body {
 
     h4 {
       text-align: center;
-      color: yellow;
+      color: @highlight-color;
 
       @media @desktop {
         margin-top: 2rem;
@@ -183,8 +159,8 @@ body {
       margin-bottom: 2rem;
 
       &:hover {
-        background: black;
-        color: white;
+        background: @background-color;
+        color: @text-color;
       }
     }
   }

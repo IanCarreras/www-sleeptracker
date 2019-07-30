@@ -126,42 +126,88 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+header {
+  background-image: url(../img/banner.jpg);
+  background-size: cover;
+  padding: 4rem 0;
+}
+@media only screen and (min-width: 500px) {
+  header {
+    padding: 5rem 0;
+  }
+}
+nav {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+nav .logo {
+  height: 3rem;
+  display: flex;
+  flex-grow: 1;
+}
+nav .logo a {
+  font-size: 2rem;
+  display: flex;
+  padding: 0;
+  text-decoration: none;
+}
+nav .logo a:visited {
+  color: white;
+}
+nav .logo a img {
+  height: 3rem;
+}
+nav .logo a h1 {
+  align-self: center;
+}
+nav .nav-items {
+  display: flex;
+  height: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+nav .nav-items a {
+  margin: 0.5rem;
+  color: white;
+  text-decoration: none;
+}
+nav .nav-items a:visited {
+  color: white;
+}
+nav .login {
+  display: flex;
+}
+nav .login button {
+  margin: 0 0.5rem;
+  height: 3rem;
+  background-color: #2e4482;
+  border: none;
+  border-radius: 5px;
+}
+nav .login button:hover {
+  background-color: yellow;
+}
+nav .login button:hover a {
+  color: black !important;
+}
+nav .login button a {
+  text-decoration: none;
+}
+nav .login button a:visited {
+  color: white;
+}
 * {
   font-family: Sans-Serif;
 }
 body {
-  max-width: 1300px;
+  max-width: 1000px;
   margin: 0 auto;
   background-color: black;
   color: white;
   display: flex;
   flex-direction: column;
   align-content: center;
-}
-body nav {
-  display: flex;
-  align-content: center;
-  background: url(../img/banner.jpg);
-  padding: 1rem;
-}
-body nav #logo {
-  display: flex;
-  flex-grow: 1;
-}
-body nav a {
-  align-self: space-between;
-  justify-self: center;
-  text-decoration: none;
-  color: white;
-  padding: 1rem;
-  height: 1.5rem;
-}
-body nav a :hover :visited {
-  color: white;
-}
-body nav .nav_app_button {
-  background: darkblue;
-  border-radius: .5rem;
 }
 body .section_1 {
   display: flex;
@@ -261,7 +307,7 @@ body .section_2 #features_list {
   }
 }
 body .section_2 #features_list li {
-  border: 1px solid white;
+  border: 1px solid #2e4482;
   border-radius: .5rem;
   padding: 1rem;
   margin: 1rem auto 0 auto;

@@ -9,9 +9,9 @@ const navContent = `
           </a>
         </div>
         <div class="nav-items">
-          <a href="/what_is_sleep_tracker.html">What is Sleep Tracker?</a>
-          <a href="/why-sleep.html">Why Sleep?</a>
-          <a href="/who-are-we.html">Who are we?</a>
+          <a href="what_is_sleep_tracker.html">What is Sleep Tracker?</a>
+          <a href="why-sleep.html">Why Sleep?</a>
+          <a href="who-are-we.html">Who are we?</a>
         </div>
         <div class="login">
           <button>
