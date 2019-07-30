@@ -138,6 +138,8 @@ body {
 }
 body {
   background-color: #1D1A21;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 header {
   background-color: #003366;
@@ -265,40 +267,52 @@ header nav .logo h1 {
   padding: 0px 20px;
 }
 .mid-container {
-  display: flex;
+  width: 100%;
+  padding: 30px;
 }
-.mid-container .left-container {
-  width: 50%;
-  padding: 20px;
-}
-.mid-container .left-container h1 {
+.mid-container h1 {
   color: white;
   font-family: 'Raleway', sans-serif;
   font-size: 3.6rem;
   text-align: center;
-  padding-bottom: 10px;
+  font-weight: bold;
 }
-.mid-container .left-container p {
+.mid-container p {
   color: white;
   font-size: 1.6rem;
 }
-.mid-container .right-container {
-  width: 50%;
+.bottom-container {
+  width: 100%;
   padding: 20px;
 }
-.mid-container .right-container h1 {
+.bottom-container h1 {
   color: white;
   font-family: 'Raleway', sans-serif;
   font-size: 3.6rem;
   text-align: center;
+  font-weight: bold;
 }
-.mid-container .right-container h2 {
+.bottom-container h2 {
   color: white;
   font-size: 2.2rem;
 }
-.mid-container .right-container h3 {
+.bottom-container h3 {
   color: white;
   font-size: 2.2rem;
+}
+.bottom-container h1 {
+  padding-bottom: 20px;
+}
+.bottom-container ul {
+  font-size: 2.4rem;
+  text-align: center;
+}
+.bottom-container li {
+  padding: 15px;
+  background-color: #5c97bf;
+}
+.bottom-container li a {
+  color: white;
 }
 /*
  * Project: Charts
@@ -324,22 +338,6 @@ body {
 #chart-1 {
   width: 600px;
   height: 300px;
-}
-#chart-2 {
-  width: 400px;
-  height: 600px;
-}
-#chart-3 {
-  width: 600px;
-  height: 130px;
-}
-#chart-4 {
-  width: 130px;
-  height: 500px;
-}
-#chart-5 {
-  width: 300px;
-  height: 200px;
 }
 /**
   * Chart container
