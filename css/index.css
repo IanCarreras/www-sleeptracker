@@ -1,3 +1,202 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+header {
+  background-image: url(../img/banner.jpg);
+  background-size: cover;
+  padding: 4rem 0;
+}
+@media only screen and (min-width: 500px) {
+  header {
+    padding: 5rem 0;
+  }
+}
+nav {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+nav .logo {
+  height: 3rem;
+  display: flex;
+  flex-grow: 1;
+}
+nav .logo a {
+  font-size: 2rem;
+  display: flex;
+  padding: 0;
+  text-decoration: none;
+}
+nav .logo a:visited {
+  color: white;
+}
+nav .logo a img {
+  height: 3rem;
+}
+nav .logo a h1 {
+  align-self: center;
+}
+nav .nav-items {
+  display: flex;
+  height: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+nav .nav-items a {
+  margin: 0.5rem;
+  color: white;
+  text-decoration: none;
+}
+nav .nav-items a:visited {
+  color: white;
+}
+nav .login {
+  display: flex;
+}
+nav .login button {
+  margin: 0 0.5rem;
+  height: 3rem;
+  background-color: #2e4482;
+  border: none;
+  border-radius: 5px;
+}
+nav .login button:hover {
+  background-color: yellow;
+}
+nav .login button:hover a {
+  color: black !important;
+}
+nav .login button a {
+  text-decoration: none;
+}
+nav .login button a:visited {
+  color: white;
+}
 * {
   font-family: Sans-Serif;
 }
@@ -6,39 +205,9 @@ body {
   margin: 0 auto;
   background-color: black;
   color: white;
-}
-nav {
   display: flex;
-  align-content: center;
-  background-color: dodgerblue;
-}
-nav .logo {
-  display: flex;
-  flex-grow: 1;
-}
-nav .logo a {
-  display: flex;
-}
-nav .logo a img {
-  height: 50%;
-  justify-self: center;
-}
-nav button {
-  margin: 0.5rem;
-  max-height: 3rem;
-  background-color: darkblue;
-  border: none;
-  border-radius: 5px;
-}
-nav a {
-  align-self: space-between;
-  justify-self: center;
-  text-decoration: none;
-  color: white;
-  padding: 1rem 0.4rem;
-}
-nav a:visited {
-  color: white;
+  flex-direction: column;
+  justify-content: center;
 }
 #section1 {
   background: url(../img/new_home_image.png);
@@ -48,26 +217,59 @@ nav a:visited {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 0 auto;
 }
-#section1 .section1_wrapper {
-  width: 30%;
+#section1 .section1_text_wrapper {
+  width: 50%;
   padding-left: 5rem;
+}
+@media only screen and (min-width: 500px) {
+  #section1 .section1_text_wrapper {
+    width: 30%;
+  }
+}
+#section1 .section1_text_wrapper h1 {
+  font-size: 2rem;
+}
+#section1 .section1_text_wrapper p {
+  margin-top: 2rem;
 }
 #section1 .button_wrapper {
   padding-left: 5rem;
-  width: 30%;
+  width: 100%;
   margin-top: 1.5rem;
+  display: flex;
 }
 #section1 .button_wrapper button {
   width: 5rem;
   height: 2rem;
   border-radius: 5px;
+  margin-right: 1rem;
+}
+#section1 .button_wrapper button a {
+  text-decoration: none;
+  color: black;
+}
+#section1 .button_wrapper button a:hover {
+  background-color: black;
+  color: white;
 }
 #section2 ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  padding: 2rem;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 500px) {
+  #section2 ul {
+    flex-direction: row;
+    flex-flow: wrap;
+    padding: 0rem;
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 #section2 ul #what_is_sleep_tracker {
   background: url('../img/night-sky.jpeg');
@@ -85,11 +287,16 @@ nav a:visited {
   border: 1px solid white;
   border-radius: 5px;
   height: 15rem;
-  width: 35%;
-  margin: 0 1rem;
+  margin: 1rem auto;
+  width: 80%;
+}
+@media only screen and (min-width: 500px) {
+  #section2 ul a {
+    width: 28%;
+  }
 }
 #section2 ul a li {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
   padding: 1rem;
   color: white;
   border-radius: 5px;
