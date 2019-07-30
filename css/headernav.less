@@ -1,0 +1,73 @@
+// media query variables
+@mobile: ~"only screen and (max-width: 500px)";
+@tablet: ~"only screen and (max-width: 800px)";
+
+// mixins
+.no-decoration() {
+    text-decoration: none;
+    &:visited {
+      color: @text-color;
+    }
+  }
+
+header {
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    padding: 4rem 0;
+    @media @tablet {
+      padding: 5rem 0;
+    }
+  }
+  
+  nav {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    .logo {
+      height: 3rem;
+      display: flex;
+      flex-grow: 1;
+      a {
+        font-size: 2rem;
+        display: flex;
+        padding: 0;
+        .no-decoration();
+        img {
+          height: 3rem;
+        }
+        h1 {
+          align-self: center;
+        }
+      }
+    }
+    .nav-items {
+      display: flex;
+      height: 3rem;
+      justify-content: center;
+      align-items: center;
+      a {
+        margin: 0.5rem;
+        color: @text-color;
+        .no-decoration();
+      }
+    }
+    .login {
+      display: flex;
+      button {
+        margin: 0 0.5rem;
+        height: 3rem;
+        background-color: @primary-color;
+        border: none;
+        border-radius: 5px;
+        &:hover {
+          background-color: @highlight-color;
+          a {
+            color: @background-color !important;
+          }
+        }
+        a {
+          .no-decoration();
+        }
+      }
+    }
+  }
