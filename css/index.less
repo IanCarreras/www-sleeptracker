@@ -1,5 +1,7 @@
+*{font-family: Sans-Serif}
+
 body {
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
   background-color: black;
   color: white;
@@ -18,8 +20,6 @@ nav {
         height: 50%;
         justify-self: center;
       }
-      h1 {
-      }
     }
   }
   button{
@@ -37,6 +37,74 @@ nav {
     padding: 1rem 0.4rem;
     &:visited {
       color: white;
+    }
+  }
+}
+
+#section1 {
+  background: url(../img/new_home_image.png);
+  background-size: cover; 
+  background-repeat: no-repeat;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .section1_wrapper {
+    width: 30%;
+    padding-left: 5rem;
+  }
+
+  .button_wrapper {
+    padding-left: 5rem;
+    width: 30%;
+    margin-top: 1.5rem;
+
+    button {
+      width: 5rem;
+      height: 2rem;
+      border-radius: 5px;
+    }
+  }
+}
+
+#section2 {
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    
+    #what_is_sleep_tracker {
+      background: url('../img/night-sky.jpeg');
+      background-size: cover;
+    }
+
+    #why-sleep {
+      background: url('../img/Vanishing-Stripes.svg');
+      background-size: cover;
+
+    }
+
+    #who-are-we {
+      background: url('../img/who_are_we.png');
+      background-size: cover;
+    }
+
+    a {
+      border: 1px solid white;
+      border-radius: 5px;
+      height: 15rem;
+      width: 35%;
+      margin: 0 1rem; 
+
+      li {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 1rem;
+        color: white;
+        border-radius: 5px;
+      }
     }
   }
 }
