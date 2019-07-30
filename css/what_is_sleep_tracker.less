@@ -2,7 +2,7 @@
 
 *{font-family: Sans-Serif}
 
-@tablet: ~"only screen and (min-width: 501px)";
+@tablet: ~"only screen and (min-width: 500px)";
 @desktop: ~"only screen and (min-width: 1000px)";
 
 body {
@@ -10,6 +10,9 @@ body {
   margin: 0 auto;
   background-color: black;
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 
   nav {
     display: flex;
@@ -48,21 +51,26 @@ body {
     margin: 0 auto;
 
     .wrapper {
-      margin: auto auto;
+      margin: auto;
       display: flex;
       flex-direction: column;
       padding: 3rem;
+
+      h2 {
+        text-align: center;
+        font-size: 2rem;
+      }
 
       p {
         margin-top: 2rem;
 
         @media @tablet {
-          margin-top: 2rem;
+          margin-top: 3rem;
         }
-      }
 
-      h2 {
-        text-align: center;
+        @media @desktop {
+          margin-top: 4rem;
+        }
       }
 
       h4 {
@@ -70,9 +78,12 @@ body {
         color: yellow;
         margin-top: 3rem;
 
-
         @media @tablet {
-          margin-top: 2.5rem;
+          margin-top: 3rem;
+        }
+
+        @media @desktop {
+          margin-top: 4rem;
         }
       }
 
@@ -80,10 +91,10 @@ body {
         width: 35%;
         height: 2.5rem;
         border-radius: .5rem;
-        margin: 0 auto;
+        margin: 1rem auto 0 auto;
         font-size: 1rem;
 
-        :hover {
+        &:hover {
           background: black;
           color: white;
         }
@@ -97,14 +108,23 @@ body {
     border-top: 1px solid white;
     padding-top: 3rem;
     width: 90%;
-    margin: 7rem auto 0 auto;
+    margin: 6rem auto 0 auto;
 
     @media @tablet {
-      margin-top: 5rem;
+      margin-top: 1rem;
+    }
+
+    @media @desktop {
+      margin-top: 3rem;
     }
 
     h2 {
       text-align: center;
+      font-size: 2rem;
+
+      @media @desktop {
+        margin-top: 2rem;
+      }
     }
 
     #features_list {
@@ -117,6 +137,10 @@ body {
         flex-flow: row wrap;
       }
 
+      @media @desktop {
+        margin-top: 2rem;
+      }
+
       li {
         border: 1px solid white;
         border-radius: .5rem;
@@ -124,12 +148,18 @@ body {
         margin: 1rem auto 0 auto;
         background: url('../img/night-sky.jpeg');
 
+        @media @desktop {
+          margin-top: 3rem;
+        }
+
         h3 {
           text-align: center;
+          font-size: 1.3rem;
         }
 
         p {
           width: 15rem;
+          margin-top: 1rem;
         }
       }
     }
@@ -137,6 +167,10 @@ body {
     h4 {
       text-align: center;
       color: yellow;
+
+      @media @desktop {
+        margin-top: 2rem;
+      }
     }
 
     button {
@@ -145,9 +179,10 @@ body {
       margin: 0 auto;
       border-radius: .5rem;
       font-size: 1rem;
+      margin-top: 1rem;
       margin-bottom: 2rem;
 
-      :hover {
+      &:hover {
         background: black;
         color: white;
       }
