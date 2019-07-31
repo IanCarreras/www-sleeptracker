@@ -52,9 +52,12 @@ function navbar() {
 
 const checkWidth = () => {
   if (window.innerWidth > 800) {
-      //change mobile-menu to display:none and change menu to display:flex
+      console.log('desktop')
+      document.getElementById('menu').style.display = "flex"
+      document.getElementById('menuToggle').style.display = "none"
     } else {
-      //change menu to display:none and change mobile-menu to display:block
+      document.getElementById('menu').style.display = "none"
+      document.getElementById('menuToggle').style.display = "block"
     }
 }
 
