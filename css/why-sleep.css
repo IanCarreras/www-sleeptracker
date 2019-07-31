@@ -141,59 +141,6 @@ body {
   max-width: 1000px;
   margin: 0 auto;
 }
-header {
-  background-color: #003366;
-  height: 80px;
-}
-header nav {
-  display: flex;
-  font-size: 1.8rem;
-  flex-direction: flex-end;
-  justify-content: space-around;
-}
-header nav a {
-  color: white;
-  text-decoration: none;
-  padding-top: 20px;
-}
-header nav button {
-  height: 100%;
-  margin-top: 10px;
-  font-weight: bold;
-  font-size: 1.4rem;
-  color: #fff;
-  text-transform: uppercase;
-  text-decoration: none;
-  background: #ed3330;
-  padding: 20px;
-  border-radius: 5px;
-  display: inline-block;
-  border: none;
-  transition: all 0.4s ease 0s;
-}
-header nav button:hover {
-  background: #434343;
-  letter-spacing: 1px;
-  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
-  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
-  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
-  transition: all 0.4s ease 0s;
-}
-header nav .logo {
-  display: flex;
-  flex-wrap: wrap;
-}
-header nav .logo img {
-  height: 40%;
-  align-self: flex-start;
-}
-header nav .logo h1 {
-  color: white;
-  font-size: 3rem;
-  align-self: flex-start;
-  padding-top: 22px;
-  font-weight: bold;
-}
 .top-container {
   width: 100%;
   display: flex;
