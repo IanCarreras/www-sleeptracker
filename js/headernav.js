@@ -62,4 +62,5 @@ const checkWidth = () => {
 }
 
 headerNav.appendChild(navbar())
+window.addEventListener("DOMContentLoaded", checkWidth);
 window.addEventListener("resize", checkWidth);

@@ -164,9 +164,6 @@ nav .logo a img {
 nav .logo a h1 {
   align-self: center;
 }
-nav #menu {
-  display: none;
-}
 nav #menu .nav-items {
   display: flex;
   height: 3rem;
