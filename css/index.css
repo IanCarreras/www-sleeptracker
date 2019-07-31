@@ -127,6 +127,7 @@ table {
   border-spacing: 0;
 }
 header {
+  font-family: Sans-Serif;
   background-image: url(../img/banner.jpg);
   background-size: cover;
   padding: 4rem 0;
@@ -360,15 +361,15 @@ body {
   }
 }
 #section2 ul #what_is_sleep_tracker {
-  background: url('../img/night-sky.jpeg');
+  background: url("../img/night-sky.jpeg");
   background-size: cover;
 }
 #section2 ul #why-sleep {
-  background: url('../img/Vanishing-Stripes.svg');
+  background: url("../img/Vanishing-Stripes.svg");
   background-size: cover;
 }
 #section2 ul #who-are-we {
-  background: url('../img/who_are_we.png');
+  background: url("../img/who_are_we.png");
   background-size: cover;
 }
 #section2 ul a {

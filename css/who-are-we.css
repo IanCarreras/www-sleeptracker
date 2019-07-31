@@ -127,6 +127,7 @@ table {
   border-spacing: 0;
 }
 header {
+  font-family: Sans-Serif;
   background-image: url(../img/banner.jpg);
   background-size: cover;
   padding: 4rem 0;
@@ -296,6 +297,7 @@ nav #menuToggle .mobile-menu a {
 }
 * {
   box-sizing: border-box;
+  font-family: Sans-Serif;
 }
 body {
   max-width: 1000px;

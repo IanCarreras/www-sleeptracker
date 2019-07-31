@@ -1,14 +1,15 @@
-@import 'reset';
+@import "reset";
 @import "headernav";
 
-*{font-family: Sans-Serif}
+* {
+  font-family: Sans-Serif;
+}
 
 // color variables
 @primary-color: #2e4482;
 @highlight-color: yellow;
 @text-color: white;
 @background-color: black;
-
 
 @tablet: ~"only screen and (min-width: 500px)";
 @desktop: ~"only screen and (min-width: 1000px)";
@@ -25,7 +26,7 @@ body {
 
 #section1 {
   background: url(../img/new_home_image.png);
-  background-size: cover; 
+  background-size: cover;
   background-repeat: no-repeat;
   height: 30rem;
   display: flex;
@@ -36,7 +37,7 @@ body {
   .section1_text_wrapper {
     width: 50%;
     padding-left: 5rem;
-    
+
     @media @tablet {
       width: 30%;
     }
@@ -68,7 +69,7 @@ body {
 
         &:hover {
           background-color: @background-color;
-          color: @text-color; 
+          color: @text-color;
         }
       }
     }
@@ -76,7 +77,6 @@ body {
 }
 
 #section2 {
-
   ul {
     list-style: none;
     display: flex;
@@ -92,19 +92,19 @@ body {
       width: 90%;
       margin: 0 auto;
     }
-    
+
     #what_is_sleep_tracker {
-      background: url('../img/night-sky.jpeg');
+      background: url("../img/night-sky.jpeg");
       background-size: cover;
     }
 
     #why-sleep {
-      background: url('../img/Vanishing-Stripes.svg');
+      background: url("../img/Vanishing-Stripes.svg");
       background-size: cover;
     }
 
     #who-are-we {
-      background: url('../img/who_are_we.png');
+      background: url("../img/who_are_we.png");
       background-size: cover;
     }
 
@@ -113,7 +113,7 @@ body {
       border-radius: 5px;
       height: 15rem;
       margin: 1rem auto;
-      width: 80%; 
+      width: 80%;
 
       @media @tablet {
         width: 28%;

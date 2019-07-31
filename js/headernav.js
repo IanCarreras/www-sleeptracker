@@ -52,7 +52,6 @@ function navbar() {
 
 const checkWidth = () => {
   if (window.innerWidth > 800) {
-      console.log('desktop')
       document.getElementById('menu').style.display = "flex"
       document.getElementById('menuToggle').style.display = "none"
     } else {
