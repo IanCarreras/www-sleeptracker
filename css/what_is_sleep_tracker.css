@@ -1,132 +1,358 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
 body {
-    max-width: 1300px;
-    margin: 0 auto;
-    background: black;
-    color: white;
+  line-height: 1;
 }
-
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+header {
+  background-image: url(../img/banner.jpg);
+  background-size: cover;
+  padding: 4rem 0;
+}
+@media only screen and (min-width: 500px) {
+  header {
+    padding: 5rem 0;
+  }
+}
 nav {
-    display: flex;
-    align-content: center;
-    background: url(../img/banner.jpg);
-    padding: 1rem;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
 }
-
-nav #logo {
-    display: flex;
-    flex-grow: 1;
+nav .logo {
+  height: 3rem;
+  display: flex;
+  flex-grow: 1;
 }
-
-nav a {
-    align-self: space-between;
-    justify-self: center;
-    text-decoration: none;
-    color: white;
-    padding: 1rem;
-    height: 1.5rem;
+nav .logo a {
+  font-size: 2rem;
+  display: flex;
+  padding: 0;
+  text-decoration: none;
 }
-
-nav .nav_app_button {
-    background: darkblue;
-    border-radius: .5rem;
+nav .logo a:visited {
+  color: white;
 }
-
-nav a:hover a:visited {
-    color: white;
+nav .logo a img {
+  height: 3rem;
 }
-
-.section_1 {
-    display: flex;
-    height: 25rem;
+nav .logo a h1 {
+  align-self: center;
 }
-
-.section_1 .wrapper {
-    margin: auto auto;
-    display: flex;
-    flex-direction: column;
-    padding: 3rem;
+nav .nav-items {
+  display: flex;
+  height: 3rem;
+  justify-content: center;
+  align-items: center;
 }
-
-.section_1 .wrapper h2 {
-    text-align: center;
+nav .nav-items a {
+  margin: 0.5rem;
+  color: white;
+  text-decoration: none;
 }
-
-.section_1 .wrapper button {
-    width: 20%;
-    height: 2rem;
-    border-radius: .5rem;
-    margin: 0 auto;
-    font-size: 1rem;
+nav .nav-items a:visited {
+  color: white;
 }
-
-.section_1 .wrapper button:hover {
-    background: black;
-    color: white;
+nav .login {
+  display: flex;
 }
-
-.section_2 {
-    display: flex;
-    flex-direction: column;
-    border-top: 1px solid white;
-    padding-top: 3rem;
-    width: 90%;
-    margin: 0 auto;
+nav .login button {
+  margin: 0 0.5rem;
+  height: 3rem;
+  background-color: #2e4482;
+  border: none;
+  border-radius: 5px;
 }
-
-.section_2 h2{
-    text-align: center;
+nav .login button:hover {
+  background-color: yellow;
 }
-
-.section_2 #features_list {
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 2rem;
+nav .login button:hover a {
+  color: black !important;
 }
-
-.section_2 #features_list li {
-    border: 1px solid white;
-    border-radius: .5rem;
-    padding: 3rem;
+nav .login button a {
+  text-decoration: none;
+}
+nav .login button a:visited {
+  color: white;
+}
+* {
+  font-family: Sans-Serif;
+}
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+body .section_1 {
+  display: flex;
+  height: 25rem;
+  margin: 0 auto;
+}
+body .section_1 .wrapper {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+body .section_1 .wrapper h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+body .section_1 .wrapper p {
+  margin-top: 2rem;
+}
+@media only screen and (min-width: 500px) {
+  body .section_1 .wrapper p {
+    margin-top: 3rem;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  body .section_1 .wrapper p {
+    margin-top: 4rem;
+  }
+}
+body .section_1 .wrapper h4 {
+  text-align: center;
+  color: yellow;
+  margin-top: 3rem;
+}
+@media only screen and (min-width: 500px) {
+  body .section_1 .wrapper h4 {
+    margin-top: 3rem;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  body .section_1 .wrapper h4 {
+    margin-top: 4rem;
+  }
+}
+body .section_1 .wrapper button {
+  width: 35%;
+  height: 2.5rem;
+  border-radius: .5rem;
+  margin: 1rem auto 0 auto;
+  font-size: 1rem;
+}
+body .section_1 .wrapper button:hover {
+  background: black;
+  color: white;
+}
+body .section_1 .wrapper button a {
+  text-decoration: none;
+  color: black;
+}
+body .section_2 {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid white;
+  padding-top: 3rem;
+  width: 90%;
+  margin: 6rem auto 0 auto;
+}
+@media only screen and (min-width: 500px) {
+  body .section_2 {
     margin-top: 1rem;
-    background: url('../img/night-sky.jpeg')
+  }
 }
-
-.section_2 #features_list li h3 {
-    text-align: center;
+@media only screen and (min-width: 1000px) {
+  body .section_2 {
+    margin-top: 3rem;
+  }
 }
-
-.section_2 #features_list li p {
-    width: 15rem;
+body .section_2 h2 {
+  text-align: center;
+  font-size: 2rem;
 }
-
-.section_2 button {
-    width: 20%;
-    height: 2rem;
-    margin: 0 auto;
-    border-radius: .5rem;
-    font-size: 1rem;
+@media only screen and (min-width: 1000px) {
+  body .section_2 h2 {
+    margin-top: 2rem;
+  }
 }
-
-.section_2 button:hover {
-    background: black;
-    color: white;
+body .section_2 #features_list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
 }
-
-.text_above_button {
-    text-align: center;
-    color: yellow;
+@media only screen and (min-width: 500px) {
+  body .section_2 #features_list {
+    flex-flow: row wrap;
+  }
 }
-
-@media (min-width: 600px) {
-    body {
-        background: black;
-    }
+@media only screen and (min-width: 1000px) {
+  body .section_2 #features_list {
+    margin-top: 2rem;
+  }
 }
-
-@media (min-width: 1000px) {
-    body {
-        background: black;
-    }
+body .section_2 #features_list li {
+  border: 1px solid #2e4482;
+  border-radius: .5rem;
+  padding: 1rem;
+  margin: 1rem auto 0 auto;
+  background: url('../img/night-sky.jpeg');
+}
+@media only screen and (min-width: 1000px) {
+  body .section_2 #features_list li {
+    margin-top: 3rem;
+  }
+}
+body .section_2 #features_list li h3 {
+  text-align: center;
+  font-size: 1.3rem;
+}
+body .section_2 #features_list li p {
+  width: 15rem;
+  margin-top: 1rem;
+}
+body .section_2 h4 {
+  text-align: center;
+  color: yellow;
+}
+@media only screen and (min-width: 1000px) {
+  body .section_2 h4 {
+    margin-top: 2rem;
+  }
+}
+body .section_2 button {
+  width: 20%;
+  height: 2rem;
+  margin: 0 auto;
+  border-radius: .5rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+body .section_2 button:hover {
+  background: black;
+  color: white;
+}
+body .section_2 button a {
+  text-decoration: none;
+  color: black;
 }

@@ -1,42 +1,130 @@
+@import 'reset';
+@import "headernav";
+
+*{font-family: Sans-Serif}
+
+// color variables
+@primary-color: #2e4482;
+@highlight-color: yellow;
+@text-color: white;
+@background-color: black;
+
+
+@tablet: ~"only screen and (min-width: 500px)";
+@desktop: ~"only screen and (min-width: 1000px)";
+
 body {
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
   background-color: black;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-nav {
+#section1 {
+  background: url(../img/new_home_image.png);
+  background-size: cover; 
+  background-repeat: no-repeat;
+  height: 30rem;
   display: flex;
-  align-content: center;
-  background-color: dodgerblue;
-  .logo {
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+
+  .section1_text_wrapper {
+    width: 50%;
+    padding-left: 5rem;
+    
+    @media @tablet {
+      width: 30%;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    p {
+      margin-top: 2rem;
+    }
+  }
+
+  .button_wrapper {
+    padding-left: 5rem;
+    width: 100%;
+    margin-top: 1.5rem;
     display: flex;
-    flex-grow: 1;
-    a{
-      display: flex;
-      img {
-        height: 50%;
-        justify-self: center;
-      }
-      h1 {
+
+    button {
+      width: 5rem;
+      height: 2rem;
+      border-radius: 5px;
+      margin-right: 1rem;
+
+      a {
+        text-decoration: none;
+        color: @background-color;
+
+        &:hover {
+          background-color: @background-color;
+          color: @text-color; 
+        }
       }
     }
   }
-  button{
-    margin: 0.5rem;
-    max-height: 3rem;
-    background-color: darkblue;
-    border: none;
-    border-radius: 5px;
-  }
-  a {
-    align-self: space-between;
-    justify-self: center;
-    text-decoration: none;
-    color: white;
-    padding: 1rem 0.4rem;
-    &:visited {
-      color: white;
+}
+
+#section2 {
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 0 auto;
+
+    @media @tablet {
+      flex-direction: row;
+      flex-flow: wrap;
+      padding: 0rem;
+      width: 90%;
+      margin: 0 auto;
+    }
+    
+    #what_is_sleep_tracker {
+      background: url('../img/night-sky.jpeg');
+      background-size: cover;
+    }
+
+    #why-sleep {
+      background: url('../img/Vanishing-Stripes.svg');
+      background-size: cover;
+    }
+
+    #who-are-we {
+      background: url('../img/who_are_we.png');
+      background-size: cover;
+    }
+
+    a {
+      border: 1px solid white;
+      border-radius: 5px;
+      height: 15rem;
+      margin: 1rem auto;
+      width: 80%; 
+
+      @media @tablet {
+        width: 28%;
+      }
+
+      li {
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 1rem;
+        color: white;
+        border-radius: 5px;
+      }
     }
   }
 }
