@@ -246,13 +246,15 @@ body {
   border-radius: 5px;
   margin-right: 1rem;
 }
+#section1 .button_wrapper button:hover {
+  background-color: black;
+}
+#section1 .button_wrapper button:hover a {
+  color: white;
+}
 #section1 .button_wrapper button a {
   text-decoration: none;
   color: black;
-}
-#section1 .button_wrapper button a:hover {
-  background-color: black;
-  color: white;
 }
 #section2 ul {
   list-style: none;
@@ -284,7 +286,7 @@ body {
   background-size: cover;
 }
 #section2 ul a {
-  border: 1px solid white;
+  border: 1px solid #2e4482;
   border-radius: 5px;
   height: 15rem;
   margin: 1rem auto;
@@ -300,4 +302,5 @@ body {
   padding: 1rem;
   color: white;
   border-radius: 5px;
+  text-decoration: none;
 }

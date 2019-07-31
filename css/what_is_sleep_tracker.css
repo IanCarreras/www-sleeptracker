@@ -263,6 +263,9 @@ body .section_1 .wrapper button:hover {
   background: black;
   color: white;
 }
+body .section_1 .wrapper button:hover a {
+  color: white;
+}
 body .section_1 .wrapper button a {
   text-decoration: none;
   color: black;
@@ -350,6 +353,9 @@ body .section_2 button {
 }
 body .section_2 button:hover {
   background: black;
+  color: white;
+}
+body .section_2 button:hover a {
   color: white;
 }
 body .section_2 button a {
