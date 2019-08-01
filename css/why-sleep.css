@@ -204,7 +204,7 @@ nav .login button a:visited {
 html,
 body {
   height: 100%;
-  font-size: 62.5%;
+  font-size: 100%;
   font-family: sans-serif;
 }
 body {
@@ -246,7 +246,7 @@ body {
 }
 .top-container .slider-wrapper .slider div {
   color: black;
-  height: 50px;
+  height: 3rem;
   margin-bottom: 50px;
   padding: 2px 15px;
   text-align: center;
@@ -254,12 +254,15 @@ body {
 .top-container .slider-wrapper .slider .slider-text1 {
   background-color: lightgreen;
   animation: slide 5s linear infinite;
+  font-size: 3rem;
 }
 .top-container .slider-wrapper .slider .slider-text2 {
   background-color: lightblue;
+  font-size: 3rem;
 }
 .top-container .slider-wrapper .slider .slider-text3 {
   background-color: lightcoral;
+  font-size: 3rem;
 }
 @keyframes slide {
   0% {
@@ -287,7 +290,7 @@ body {
 .top-container .slider-wrapper h1 {
   color: white;
   font-family: 'Raleway', sans-serif;
-  font-size: 4rem;
+  font-size: 2rem;
   text-align: center;
 }
 @media (max-width: 800px) {
@@ -298,7 +301,7 @@ body {
 .top-container p {
   color: white;
   font-family: 'Raleway', sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 0px 20px;
 }
 .mid-container {
@@ -308,7 +311,7 @@ body {
 .mid-container h1 {
   color: white;
   font-family: 'Raleway', sans-serif;
-  font-size: 3.6rem;
+  font-size: 2.5rem;
   text-align: center;
   font-weight: bold;
 }
@@ -323,13 +326,13 @@ body {
 .bottom-container h1 {
   color: white;
   font-family: 'Raleway', sans-serif;
-  font-size: 3.6rem;
+  font-size: 2.5rem;
   text-align: center;
   font-weight: bold;
   padding-bottom: 20px;
 }
 .bottom-container ul {
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   text-align: center;
 }
 .bottom-container li {
@@ -339,6 +342,9 @@ body {
 .bottom-container li a {
   color: silver;
   font-weight: bold;
+}
+.bottom-container li a:hover {
+  background-color: lemonchiffon;
 }
 /*
  * Project: Charts
@@ -1672,257 +1678,6 @@ body {
   left: 2px;
   height: 1px;
   background-color: #1f2125;
-}
-/**
-  * Y axis bars
-  * --------------------------------------------------
-  *
-  * Recommended usage:
-  *
-  * <ul class="y-axis-bar-list count-{ count }">
-  *   <li class="y-axis-bar-item { nested-bars }">
-  *     <span class="y-axis-bar { primary|secondary|tertiary }" style="right: { value in % };">
-  *       <span class="y-axis-bar-value" data-value="{ value }"></span>
-  *     </span>
-  *     <span class="y-axis-bullet-bar" style="right: { value in % }"></span>
-  *     <span class="y-axis-bar-target-line" style="left: { value in % };"></span>
-  *   </li>
-  * </ul>
-  *
-  */
-.y-axis-bar-list {
-  position: absolute;
-  top: 5px;
-  right: 0;
-  bottom: 56px;
-  left: 51px;
-}
-.y-axis-bar-item {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: auto;
-  left: 0;
-}
-.count-1 .y-axis-bar-item:nth-of-type(1) {
-  top: 0%;
-  bottom: 0%;
-}
-.count-2 .y-axis-bar-item:nth-of-type(1) {
-  top: 0%;
-  bottom: 50%;
-}
-.count-2 .y-axis-bar-item:nth-of-type(2) {
-  top: 50%;
-  bottom: 0%;
-}
-.count-3 .y-axis-bar-item:nth-of-type(1) {
-  top: 0%;
-  bottom: 66.66666667%;
-}
-.count-3 .y-axis-bar-item:nth-of-type(2) {
-  top: 33.33333333%;
-  bottom: 33.33333333%;
-}
-.count-3 .y-axis-bar-item:nth-of-type(3) {
-  top: 66.66666667%;
-  bottom: 0%;
-}
-.count-4 .y-axis-bar-item:nth-of-type(1) {
-  top: 0%;
-  bottom: 75%;
-}
-.count-4 .y-axis-bar-item:nth-of-type(2) {
-  top: 25%;
-  bottom: 50%;
-}
-.count-4 .y-axis-bar-item:nth-of-type(3) {
-  top: 50%;
-  bottom: 25%;
-}
-.count-4 .y-axis-bar-item:nth-of-type(4) {
-  top: 75%;
-  bottom: 0%;
-}
-.count-5 .y-axis-bar-item:nth-of-type(1) {
-  top: 0%;
-  bottom: 80%;
-}
-.count-5 .y-axis-bar-item:nth-of-type(2) {
-  top: 20%;
-  bottom: 60%;
-}
-.count-5 .y-axis-bar-item:nth-of-type(3) {
-  top: 40%;
-  bottom: 40%;
-}
-.count-5 .y-axis-bar-item:nth-of-type(4) {
-  top: 60%;
-  bottom: 20%;
-}
-.count-5 .y-axis-bar-item:nth-of-type(5) {
-  top: 80%;
-  bottom: 0%;
-}
-.count-6 .y-axis-bar-item:nth-of-type(1) {
-  top: 0%;
-  bottom: 83.33333333%;
-}
-.count-6 .y-axis-bar-item:nth-of-type(2) {
-  top: 16.66666667%;
-  bottom: 66.66666667%;
-}
-.count-6 .y-axis-bar-item:nth-of-type(3) {
-  top: 33.33333333%;
-  bottom: 50%;
-}
-.count-6 .y-axis-bar-item:nth-of-type(4) {
-  top: 50%;
-  bottom: 33.33333333%;
-}
-.count-6 .y-axis-bar-item:nth-of-type(5) {
-  top: 66.66666667%;
-  bottom: 16.66666667%;
-}
-.count-6 .y-axis-bar-item:nth-of-type(6) {
-  top: 83.33333333%;
-  bottom: 0%;
-}
-.count-7 .y-axis-bar-item:nth-of-type(1) {
-  top: 0%;
-  bottom: 85.71428571%;
-}
-.count-7 .y-axis-bar-item:nth-of-type(2) {
-  top: 14.28571429%;
-  bottom: 71.42857143%;
-}
-.count-7 .y-axis-bar-item:nth-of-type(3) {
-  top: 28.57142857%;
-  bottom: 57.14285714%;
-}
-.count-7 .y-axis-bar-item:nth-of-type(4) {
-  top: 42.85714286%;
-  bottom: 42.85714286%;
-}
-.count-7 .y-axis-bar-item:nth-of-type(5) {
-  top: 57.14285714%;
-  bottom: 28.57142857%;
-}
-.count-7 .y-axis-bar-item:nth-of-type(6) {
-  top: 71.42857143%;
-  bottom: 14.28571429%;
-}
-.count-7 .y-axis-bar-item:nth-of-type(7) {
-  top: 85.71428571%;
-  bottom: 0%;
-}
-.count-8 .y-axis-bar-item:nth-of-type(1) {
-  top: 0%;
-  bottom: 87.5%;
-}
-.count-8 .y-axis-bar-item:nth-of-type(2) {
-  top: 12.5%;
-  bottom: 75%;
-}
-.count-8 .y-axis-bar-item:nth-of-type(3) {
-  top: 25%;
-  bottom: 62.5%;
-}
-.count-8 .y-axis-bar-item:nth-of-type(4) {
-  top: 37.5%;
-  bottom: 50%;
-}
-.count-8 .y-axis-bar-item:nth-of-type(5) {
-  top: 50%;
-  bottom: 37.5%;
-}
-.count-8 .y-axis-bar-item:nth-of-type(6) {
-  top: 62.5%;
-  bottom: 25%;
-}
-.count-8 .y-axis-bar-item:nth-of-type(7) {
-  top: 75%;
-  bottom: 12.5%;
-}
-.count-8 .y-axis-bar-item:nth-of-type(8) {
-  top: 87.5%;
-  bottom: 0%;
-}
-.count-9 .y-axis-bar-item:nth-of-type(1) {
-  top: 0%;
-  bottom: 88.88888889%;
-}
-.count-9 .y-axis-bar-item:nth-of-type(2) {
-  top: 11.11111111%;
-  bottom: 77.77777778%;
-}
-.count-9 .y-axis-bar-item:nth-of-type(3) {
-  top: 22.22222222%;
-  bottom: 66.66666667%;
-}
-.count-9 .y-axis-bar-item:nth-of-type(4) {
-  top: 33.33333333%;
-  bottom: 55.55555556%;
-}
-.count-9 .y-axis-bar-item:nth-of-type(5) {
-  top: 44.44444444%;
-  bottom: 44.44444444%;
-}
-.count-9 .y-axis-bar-item:nth-of-type(6) {
-  top: 55.55555556%;
-  bottom: 33.33333333%;
-}
-.count-9 .y-axis-bar-item:nth-of-type(7) {
-  top: 66.66666667%;
-  bottom: 22.22222222%;
-}
-.count-9 .y-axis-bar-item:nth-of-type(8) {
-  top: 77.77777778%;
-  bottom: 11.11111111%;
-}
-.count-9 .y-axis-bar-item:nth-of-type(9) {
-  top: 88.88888889%;
-  bottom: 0%;
-}
-.count-10 .y-axis-bar-item:nth-of-type(1) {
-  top: 0%;
-  bottom: 90%;
-}
-.count-10 .y-axis-bar-item:nth-of-type(2) {
-  top: 10%;
-  bottom: 80%;
-}
-.count-10 .y-axis-bar-item:nth-of-type(3) {
-  top: 20%;
-  bottom: 70%;
-}
-.count-10 .y-axis-bar-item:nth-of-type(4) {
-  top: 30%;
-  bottom: 60%;
-}
-.count-10 .y-axis-bar-item:nth-of-type(5) {
-  top: 40%;
-  bottom: 50%;
-}
-.count-10 .y-axis-bar-item:nth-of-type(6) {
-  top: 50%;
-  bottom: 40%;
-}
-.count-10 .y-axis-bar-item:nth-of-type(7) {
-  top: 60%;
-  bottom: 30%;
-}
-.count-10 .y-axis-bar-item:nth-of-type(8) {
-  top: 70%;
-  bottom: 20%;
-}
-.count-10 .y-axis-bar-item:nth-of-type(9) {
-  top: 80%;
-  bottom: 10%;
-}
-.count-10 .y-axis-bar-item:nth-of-type(10) {
-  top: 90%;
-  bottom: 0%;
 }
 .y-axis-bar {
   position: absolute;
