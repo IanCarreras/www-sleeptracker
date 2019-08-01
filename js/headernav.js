@@ -17,10 +17,10 @@ function navbar() {
     </div>
     <div class="login">
         <button>
-            <a href="https://app-sleeptracker-july.netlify.com/">Sign Up</a>
+            <a href="https://app-sleeptracker-july.netlify.com/signup">Sign Up</a>
         </button>
         <button>
-            <a href="https://app-sleeptracker-july.netlify.com/">Log In</a>
+            <a href="https://app-sleeptracker-july.netlify.com/login">Log In</a>
         </button>
     </div>
 </div>
