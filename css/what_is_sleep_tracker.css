@@ -386,23 +386,23 @@ body .section_2 h2 {
     margin-top: 2rem;
   }
 }
-body .section_2 #features_list {
+body .section_2 #features_lists {
   list-style-type: none;
   display: flex;
   flex-direction: column;
   padding: 1rem;
 }
 @media only screen and (min-width: 500px) {
-  body .section_2 #features_list {
+  body .section_2 #features_lists {
     flex-flow: row wrap;
   }
 }
 @media only screen and (min-width: 1000px) {
-  body .section_2 #features_list {
+  body .section_2 #features_lists {
     margin-top: 2rem;
   }
 }
-body .section_2 #features_list li {
+body .section_2 #features_lists li {
   border: 1px solid #2e4482;
   border-radius: .5rem;
   padding: 1rem;
@@ -415,15 +415,15 @@ body .section_2 #features_list li {
   justify-content: center;
 }
 @media only screen and (min-width: 1000px) {
-  body .section_2 #features_list li {
+  body .section_2 #features_lists li {
     margin-top: 3rem;
   }
 }
-body .section_2 #features_list li h3 {
+body .section_2 #features_lists li h3 {
   text-align: center;
   font-size: 1.3rem;
 }
-body .section_2 #features_list li p {
+body .section_2 #features_lists li p {
   width: 15rem;
   margin: 1rem auto;
 }

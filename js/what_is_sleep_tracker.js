@@ -17,11 +17,11 @@ const sleepTrackerFeatures = [
     }
 ]
 
-let listElements = []
+let listElementsIds = []
 
-let features_list = document.getElementById('features_list')
+let features_list = document.getElementById('features_lists')
 
-function featureList(feature, indx) {
+function createFeatureList(feature, indx) {
     const li = document.createElement('li')
     const list_elements = `
         <span></span>
@@ -34,25 +34,42 @@ function featureList(feature, indx) {
 }
 
 const enterEvent = (event) => {
-    listElements.forEach((element) => {
-        if(element !== event.target.id)
-        document.getElementById(element).style.display = 'none'
+    listElementsIds.forEach((element) => {
+        if(element[0] !== event.target.id)
+        document.getElementById(element[0]).style.display = 'none'
+        if(element[0] === event.target.id)
+        document.getElementById(element[1]).style.fontSize = '4rem'
+        document.getElementById(element[1]).style.marginTop = '-3rem'
+        document.getElementById(element[1]).style.color = 'yellow'
+
+
+        document.getElementById(element[2]).style.width = '80%'
+        document.getElementById(element[2]).style.fontSize = '1.5rem'
+        document.getElementById(element[2]).style.marginTop = '5rem'
     })
     Object.assign(event.target.style, {width: '100%', height: '25rem'})
 }
 
-const leaveEvent = (event) => {
-    listElements.forEach((element) => {
-        document.getElementById(element).style.display = ''
-        document.getElementById(element).style.width = ''
-        document.getElementById(element).style.height = ''
+const leaveEvent = () => {
+    listElementsIds.forEach((element) => {
+        document.getElementById(element[0]).style.display = ''
+        document.getElementById(element[0]).style.width = ''
+        document.getElementById(element[0]).style.height = ''
+
+        document.getElementById(element[1]).style.fontSize = '1.3rem'
+        document.getElementById(element[1]).style.marginTop = ''
+        document.getElementById(element[1]).style.color = 'white'
+
+        document.getElementById(element[2]).style.width = '15rem'
+        document.getElementById(element[2]).style.fontSize = ''
+        document.getElementById(element[2]).style.marginTop = ''
     })
 }
 
 sleepTrackerFeatures.forEach((feature, indx) => {
-    let newFeature = featureList(feature, indx)
+    let newFeature = createFeatureList(feature, indx)
     newFeature.setAttribute('id', `li_${indx}`)
-    listElements.push(newFeature.id)
+    listElementsIds.push([newFeature.id, `h3_${indx}`, `p_${indx}`])
         
     features_list.appendChild(newFeature)
     
